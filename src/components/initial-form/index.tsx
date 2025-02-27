@@ -65,7 +65,7 @@ export function InitalForm() {
 
   return (
     <form
-      className="w-full bg-white rounded-lg border border-neutral-300 p-4 max-w-2xl flex flex-col items-center gap-6 mt-10"
+      className="w-full bg-white rounded-lg border border-neutral-200 p-4 max-w-2xl flex flex-col items-center gap-6 mt-10"
       onSubmit={handleSubmit(handleSubmitForm)}
     >
       <div className=" flex items-start gap-2 sm:items-center">
@@ -89,7 +89,7 @@ export function InitalForm() {
               Nome
             </label>
             <input
-              className="border rounded-lg text-black border-neutral-300 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
+              className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
               type="text"
               placeholder="Digite seu nome completo"
               id="name"
@@ -110,7 +110,7 @@ export function InitalForm() {
               Telefone
             </label>
             <input
-              className="border rounded-lg text-black border-neutral-300 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
+              className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
               type="text"
               placeholder="+00 (00) 0000-0000"
               id="phone"

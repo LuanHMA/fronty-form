@@ -238,7 +238,7 @@ export function BudgetForm() {
   return (
     <div className="space-y-4 w-full max-w-6xl">
       {formState.step > 1 && (
-        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <h2 className="text-base font-medium sm:text-lg">
@@ -262,7 +262,7 @@ export function BudgetForm() {
       )}
 
       {formState.step > 2 && (
-        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <h2 className="text-base font-medium sm:text-lg">
@@ -283,7 +283,7 @@ export function BudgetForm() {
       )}
 
       {formState.step > 3 && (
-        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <h2 className="text-base font-medium sm:text-lg">
@@ -305,7 +305,7 @@ export function BudgetForm() {
       )}
 
       {formState.step > 4 && formState.productType != "encapsulado" && (
-        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <h2 className="text-base font-medium sm:text-lg flex items-center gap-2 flex-wrap">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <span>Personalização selecionada!</span>
@@ -324,16 +324,10 @@ export function BudgetForm() {
       )}
 
       {formState.step > 4 && formState.productType === "encapsulado" && (
-        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <h2 className="text-base font-medium sm:text-lg flex items-center gap-2">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
-            Personalização selecionada:
-            <span className="font-semibold text-blue-500 capitalize">
-              {formState.productDetails.qtd.label}
-            </span>
-            <span className="font-semibold text-blue-500 capitalize">
-              {formState.productDetails.color?.label}
-            </span>
+            Personalização selecionada!
           </h2>
           <button
             onClick={() => handleChangeStep(4)}
@@ -349,25 +343,10 @@ export function BudgetForm() {
       )}
 
       {formState.productType === "encapsulado" && formState.step > 5 && (
-        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <h2 className="text-base font-medium sm:text-lg inline-flex items-center gap-2">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
-            Tampa, Pote e Quantidade selecionadas:
-            <span className="font-semibold text-blue-500 ml-2 capitalize">
-              {formState.modelDetails.color}
-            </span>
-            <span className="font-semibold text-blue-500 ml-2 capitalize">
-              {formState.modelDetails.model}
-            </span>
-            <span className="font-semibold text-blue-500 ml-2 capitalize">
-              {formState.modelDetails.extra?.color}
-            </span>
-            <span className="font-semibold text-blue-500 ml-2 capitalize">
-              {formState.modelDetails.extra?.model}
-            </span>
-            <span className="font-semibold text-blue-500 ml-2 capitalize">
-              {formState.modelDetails.totalQtd}
-            </span>
+            Tampa, Pote e Quantidade selecionadas!
           </h2>
           <button
             onClick={() => handleChangeStep(5)}

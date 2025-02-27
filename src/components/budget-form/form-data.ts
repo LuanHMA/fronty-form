@@ -964,7 +964,7 @@ export const formData = {
       {
         color: "transparente",
         src: "/capsule/capsules/transparente.png",
-        colorCode: "bg-neutral-300",
+        colorCode: "bg-neutral-200",
         label: "Cápsula transparente",
       },
       {
@@ -1020,7 +1020,7 @@ export const formData = {
             color: "transparente",
             label: "Transparente",
             src: "/capsule/tampas/flip-top-transparente.png",
-            colorCode: "bg-neutral-300",
+            colorCode: "bg-neutral-200",
           },
           {
             color: "branca",
@@ -1128,7 +1128,7 @@ export const formData = {
           {
             color: "transparente",
             src: "/capsule/potes/r80-branco.png",
-            colorCode: "bg-neutral-300",
+            colorCode: "bg-neutral-200",
           },
           {
             color: "branca",
@@ -1156,7 +1156,7 @@ export const formData = {
           {
             color: "transparente",
             src: "/capsule/potes/r170-branco.png",
-            colorCode: "bg-neutral-300",
+            colorCode: "bg-neutral-200",
           },
 
           {
@@ -1175,7 +1175,7 @@ export const formData = {
           {
             color: "transparente",
             src: "/capsule/potes/t100-branco.png",
-            colorCode: "bg-neutral-300",
+            colorCode: "bg-neutral-200",
           },
           {
             color: "branca",

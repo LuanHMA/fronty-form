@@ -131,7 +131,7 @@ export function Step5Capsule() {
 
   return (
     <div className="space-y-4 py-4">
-      <div className="border border-neutral-300 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
         {/* Capsula */}
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
@@ -152,7 +152,7 @@ export function Step5Capsule() {
                     >
                       <label
                         htmlFor={name}
-                        className={`p-1 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2  ease transition-all ${selected.lidModel === name ? "bg-blue-500 text-white" : "bg-white border border-neutral-300 text-neutral-800"}`}
+                        className={`p-1 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2  ease transition-all ${selected.lidModel === name ? "bg-blue-500 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
                       >
                         <img src={src} alt={label} className="object-cover" />
                         <input
@@ -191,7 +191,7 @@ export function Step5Capsule() {
                     return (
                       <button
                         key={index}
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-300 ${colorCode} cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
+                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200 ${colorCode} cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
                         onClick={() => handleSelectLid(color, src)}
                       >
                         {color === "personalizada" && <CircleHalf size={20} />}
@@ -212,7 +212,7 @@ export function Step5Capsule() {
                       <label
                         key={index}
                         htmlFor={name}
-                        className={`p-2 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2 ease transition-all ${selected.potModel === name ? "bg-blue-500 text-white" : "bg-white border border-neutral-300 text-neutral-800"}`}
+                        className={`p-2 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2 ease transition-all ${selected.potModel === name ? "bg-blue-500 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
                       >
                         <img
                           src={src}
@@ -252,7 +252,7 @@ export function Step5Capsule() {
                   {potColors.map(({ color, src, colorCode }) => {
                     return (
                       <button
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-300 ${colorCode} cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
+                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200 ${colorCode} cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
                         onClick={() => handleSelectPot(color, src)}
                       >
                         {color === "personalizada" && <CircleHalf size={20} />}
@@ -276,7 +276,7 @@ export function Step5Capsule() {
         </div>
       </div>
 
-      <div className="border border-neutral-300 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
         {/* Capsula */}
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">

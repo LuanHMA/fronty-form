@@ -15,16 +15,16 @@ export function Footer() {
         {/* Logo e descrição */}
         <div>
           <Image src={Logo} alt="Logo Fronty" className="w-52" />
-          <p className="mt-4 text-sm sm:text-base font-semibold text-neutral-300">
+          <p className="mt-4 text-sm sm:text-base font-semibold text-neutral-200">
             Faça parceria conosco e veja seu negócio decolar!
           </p>
-          <p className="mt-2 text-sm sm:text-base text-neutral-300">
+          <p className="mt-2 text-sm sm:text-base text-neutral-200">
             Torne-se parceiro da Fronty Digital e tenha acesso a suporte
             personalizado, preços competitivos e entrega rápida. Nosso objetivo
             é entregar as melhores soluções e ferramentas para você alavancar
             seu negócio e alcançar o sucesso.
           </p>
-          <p className="mt-4 text-sm sm:text-base text-neutral-300">
+          <p className="mt-4 text-sm sm:text-base text-neutral-200">
             FrontyDigital 2025 © Todos os direitos reservados
           </p>
         </div>
@@ -35,8 +35,8 @@ export function Footer() {
             Sobre a empresa
           </h3>
           <p className="font-semibold">FRONTY DIGITAL LTDA</p>
-          <p className="text-sm sm:text-base text-neutral-300">CNPJ:</p>
-          <p className="text-sm sm:text-base text-neutral-300">
+          <p className="text-sm sm:text-base text-neutral-200">CNPJ:</p>
+          <p className="text-sm sm:text-base text-neutral-200">
             Inscrição Estadual MG:
           </p>
         </div>

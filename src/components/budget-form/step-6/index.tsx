@@ -102,7 +102,7 @@ export function Step6Resume() {
 
   return (
     <>
-      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y divide-neutral-200">
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y divide-neutral-200">
         <h1 className="text-lg font-bold text-blue-600 flex items-center gap-2">
           <ReadCvLogo size={32} />
           RESUMO DO ORÇAMENTO

@@ -41,7 +41,6 @@ export function Step4Comestics() {
   }, [selected]);
 
   const handleNextStep = () => {
-    console.log(selected);
 
     if (isFormComplete(selected)) {
       setFormState({
@@ -85,7 +84,7 @@ export function Step4Comestics() {
   return (
     <div className="space-y-4 py-4">
       {/* Cor do pote */}
-      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Nut size={24} weight="bold" className="text-blue-500" />
@@ -104,7 +103,7 @@ export function Step4Comestics() {
               {modelColor.map(({ src, color, label }, index) => (
                 <button
                   key={index}
-                  className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-300 cursor-fronty-pointer transition-all ${selected.modelLabel === label && "scale-125"}`}
+                  className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.modelLabel === label && "scale-125"}`}
                   onClick={() => handleSelectmodelLabel(label, src, color.name)}
                 ></button>
               ))}
@@ -114,7 +113,7 @@ export function Step4Comestics() {
       </div>
 
       {/* Quantidade de liquido */}
-      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Pill size={24} weight="bold" className="text-blue-500" />
@@ -147,13 +146,13 @@ export function Step4Comestics() {
       </div>
 
       {/* Quantidade total */}
-      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Nut size={24} weight="bold" className="text-blue-500" />
             Escolha a quantidade que deseja orçar:
           </h2>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {formData.comestics.totQtd.map((qtd, index) => (
               <label
                 key={index}

@@ -94,7 +94,7 @@ export function Step4Soluble() {
   return (
     <div className="space-y-4 py-4">
       {/* Cor do pote */}
-      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Nut size={24} weight="bold" className="text-blue-500" />
@@ -114,7 +114,7 @@ export function Step4Soluble() {
                 ({ src, color, label }, index) => (
                   <button
                     key={index}
-                    className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-300 cursor-fronty-pointer transition-all ${selected.lidLabel === label && "scale-125"}`}
+                    className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.lidLabel === label && "scale-125"}`}
                     onClick={() => handleSelectlidLabel(label, src, color.name)}
                   ></button>
                 )
@@ -125,7 +125,7 @@ export function Step4Soluble() {
       </div>
 
       {/* Quantidade de liquido */}
-      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Pill size={24} weight="bold" className="text-blue-500" />
@@ -158,7 +158,7 @@ export function Step4Soluble() {
       </div>
 
       {/* Sabor */}
-      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Drop size={24} weight="bold" className="text-blue-500" />
@@ -191,7 +191,7 @@ export function Step4Soluble() {
       </div>
 
       {/* Quantidade total */}
-      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Nut size={24} weight="bold" className="text-blue-500" />

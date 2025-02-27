@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { mineraRoi } from './src/styles/theme'
 
 export default {
   content: [
@@ -8,6 +9,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        ...mineraRoi.colors,
+      },
       cursor: {
         "fronty-auto": "url('/cursor.svg'), auto",
         "fronty-pointer": "url('/cursor-pointer.svg'), pointer",
