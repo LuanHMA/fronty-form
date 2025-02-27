@@ -133,7 +133,7 @@ export function Step5Capsule() {
 
   return (
     <div className="space-y-4 py-4">
-      <div className="border border-neutral-200 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-300 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
         {/* Capsula */}
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
@@ -193,7 +193,7 @@ export function Step5Capsule() {
                     return (
                       <button
                         key={index}
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200 ${colorCode} cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
+                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-300 ${colorCode} cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
                         onClick={() => handleSelectLid(color, src)}
                       >
                         {color === "personalizada" && <CircleHalf size={20} />}
@@ -254,7 +254,7 @@ export function Step5Capsule() {
                   {potColors.map(({ color, src, colorCode }) => {
                     return (
                       <button
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200 ${colorCode} cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
+                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-300 ${colorCode} cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
                         onClick={() => handleSelectPot(color, src)}
                       >
                         {color === "personalizada" && <CircleHalf size={20} />}
@@ -278,7 +278,7 @@ export function Step5Capsule() {
         </div>
       </div>
 
-      <div className="border border-neutral-200 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-300 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
         {/* Capsula */}
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
@@ -286,7 +286,7 @@ export function Step5Capsule() {
             Escolha a quantidade que deseja orçar:
           </h2>
 
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {formData.capsules.totQtd.map((qtd, index) => (
               <label
                 key={index}

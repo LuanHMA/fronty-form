@@ -29,11 +29,7 @@ const initialFormSchema = z.object({
 
 type initialFormSchemaType = z.infer<typeof initialFormSchema>;
 
-export function InitalForm({
-  handleSubmitted,
-}: {
-  handleSubmitted: (value: boolean) => void;
-}) {
+export function InitalForm() {
   const {
     register,
     handleSubmit,
@@ -60,8 +56,7 @@ export function InitalForm({
 
       if (response.data.status === 201) {
         Cookies.set("token", response.data.token);
-        handleSubmitted(true);
-        setFormState({ ...formState, username: data.name, whatsapp: phone });
+        setFormState({ ...formState, step: 1, username: data.name, whatsapp: phone, formSubmitted: true });
       }
     } catch (error) {
       console.log(error);
@@ -70,7 +65,7 @@ export function InitalForm({
 
   return (
     <form
-      className="w-full bg-white rounded-lg border border-neutral-200 p-6 max-w-2xl flex flex-col items-center gap-6 mt-10"
+      className="w-full bg-white rounded-lg border border-neutral-300 p-4 max-w-2xl flex flex-col items-center gap-6 mt-10"
       onSubmit={handleSubmit(handleSubmitForm)}
     >
       <div className=" flex items-start gap-2 sm:items-center">
@@ -79,7 +74,7 @@ export function InitalForm({
           weight="bold"
           className="text-semibold text-blue-600 w-5"
         />
-        <h2 className="text-lg font-semibold text-blue-600">
+        <h2 className="text-base font-semibold text-blue-600 flex-1">
           Insira seus dados para Iniciar a Criação do seu Produto
         </h2>
       </div>
@@ -94,7 +89,7 @@ export function InitalForm({
               Nome
             </label>
             <input
-              className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
+              className="border rounded-lg text-black border-neutral-300 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
               type="text"
               placeholder="Digite seu nome completo"
               id="name"
@@ -115,7 +110,7 @@ export function InitalForm({
               Telefone
             </label>
             <input
-              className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
+              className="border rounded-lg text-black border-neutral-300 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
               type="text"
               placeholder="+00 (00) 0000-0000"
               id="phone"

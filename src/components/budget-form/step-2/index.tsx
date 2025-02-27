@@ -68,7 +68,7 @@ export function Step2() {
 
   return (
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
-      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6">
+      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-6">
         <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
           <Nut size={24} weight="bold" className="text-blue-500" />
           Escolha o nicho de atuação do seu Produto

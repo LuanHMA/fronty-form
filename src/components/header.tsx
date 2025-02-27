@@ -26,9 +26,9 @@ export function Header() {
 
   return (
     <header
-      className={`w-[95%] max-w-4xl z-[99] mx-auto mt-4 fixed top-0 p-5 transition-all rounded-2xl duration-700 ease-out ${isScrolling ? "bg-gradient-to-r from-blue-600 to-blue-500 shadow-2xl" : "bg-transparent shadow-none"}`}
+      className={`w-[95%] max-w-4xl z-[99] mx-auto mt-4 fixed top-0  transition-all rounded-2xl duration-700 ease-out ${isScrolling ? "bg-gradient-to-r from-blue-600 to-blue-500 shadow-2xl" : "bg-transparent shadow-none"}`}
     >
-      <div className="flex items-center justify-center sm:justify-between px-2">
+      <div className="flex items-center justify-center sm:justify-between p-2 sm:px-5 sm:py-4">
         {isScrolling ? (
           <Image src={LogoWhite} alt="Logo Fronty" className="w-40 mt-2" />
         ) : (

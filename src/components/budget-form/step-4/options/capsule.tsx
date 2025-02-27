@@ -51,7 +51,7 @@ export function Step4Capsule() {
 
   return (
     <div className="space-y-4 py-4">
-      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Pill size={24} weight="bold" className="text-blue-500" />
@@ -88,7 +88,7 @@ export function Step4Capsule() {
       </div>
 
       {formState.productType === "encapsulado" && (
-        <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+        <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
           {/* Capsula */}
           <div className="space-y-6">
             <h2 className="text-base sm:text-xl font-medium flex items-start gap-2">
@@ -109,7 +109,7 @@ export function Step4Capsule() {
                   ({ src, color, colorCode, label }, index) => (
                     <button
                       key={index}
-                      className={`w-9 h-9 rounded-full ${color != "personalizada" && `${colorCode}`} border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.capsuleColor === color && "scale-125"}`}
+                      className={`w-9 h-9 rounded-full ${color != "personalizada" && `${colorCode}`} border-4 shadow-lg p-1 border-neutral-300 cursor-fronty-pointer transition-all ${selected.capsuleColor === color && "scale-125"}`}
                       onClick={() => handleSelectCapsule(color, src, label)}
                     >
                       {color === "personalizada" && <CircleHalf size={20} />}

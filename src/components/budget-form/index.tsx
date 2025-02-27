@@ -12,6 +12,8 @@ import { Step6Resume } from "./step-6";
 export function BudgetForm() {
   const { formState, setFormState } = useFormContext();
 
+  console.log(formState.step === 1)
+
   const handleChangeStep = (step: number) => {
     switch (step) {
       case 1:
@@ -238,7 +240,7 @@ export function BudgetForm() {
   return (
     <div className="space-y-4 w-full max-w-6xl">
       {formState.step > 1 && (
-        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <h2 className="text-base font-medium sm:text-lg">
@@ -256,22 +258,17 @@ export function BudgetForm() {
               size={18}
               className="group-hover:-rotate-180 transition-all duration-700"
             />
-            Alterar produto
+            Alterar o tipo de produto
           </button>
         </div>
       )}
 
       {formState.step > 2 && (
-        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <h2 className="text-base font-medium sm:text-lg">
-              Nicho selecionado:
-              <span className="font-semibold text-blue-500 capitalize ml-2">
-                {formState.niche.name} {"("}
-                {formState.niche.category}
-                {")"}
-              </span>
+              Nicho selecionado!
             </h2>
           </div>
           <button
@@ -282,20 +279,17 @@ export function BudgetForm() {
               size={18}
               className="group-hover:-rotate-180 transition-all duration-700"
             />
-            Alterar fórmula
+            Alterar nicho selecionado
           </button>
         </div>
       )}
 
       {formState.step > 3 && (
-        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <h2 className="text-base font-medium sm:text-lg">
-              Fórmula selecionada:
-              <span className="font-semibold text-blue-500 capitalize ml-2">
-                {formState.receipe.label}
-              </span>
+              Fórmula selecionada!
             </h2>
           </div>
 
@@ -307,43 +301,16 @@ export function BudgetForm() {
               size={18}
               className="group-hover:-rotate-180 transition-all duration-700"
             />
-            Alterar cor
+            Alterar fórmula
           </button>
         </div>
       )}
 
       {formState.step > 4 && formState.productType != "encapsulado" && (
-        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
-          <h2 className="text-base font-medium sm:text-lg flex items-center gap-2">
+        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
+          <h2 className="text-base font-medium sm:text-lg flex items-center gap-2 flex-wrap">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
-            <span>Personalização selecionada:</span>
-
-            {formState.productDetails.flavor?.label && (
-              <span className="font-semibold text-blue-500  px-1 border-neutral-300 capitalize">
-                {formState.productDetails.flavor.label}
-              </span>
-            )}
-            {formState.productDetails.color && (
-              <span className="font-semibold text-blue-500  px-1 border-neutral-300 capitalize">
-                {formState.productDetails.color.label}
-              </span>
-            )}
-            {formState.productDetails.qtd &&
-              formState.productDetails.measurement && (
-                <span className="font-semibold  text-blue-500 px-1 border-neutral-300 capitalize">
-                  {formState.productDetails.qtd.label}
-                </span>
-              )}
-            {formState.modelDetails.model && (
-              <span className="font-semibold text-blue-500 px-1 border-neutral-300 capitalize">
-                {formState.modelDetails.model}
-              </span>
-            )}
-            {formState.modelDetails.totalQtd && (
-              <span className="font-semibold text-blue-500 px-1 border-neutral-300 capitalize">
-                {formState.modelDetails.totalQtd} unidades
-              </span>
-            )}
+            <span>Personalização selecionada!</span>
           </h2>
           <button
             onClick={() => handleChangeStep(4)}
@@ -359,7 +326,7 @@ export function BudgetForm() {
       )}
 
       {formState.step > 4 && formState.productType === "encapsulado" && (
-        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
           <h2 className="text-base font-medium sm:text-lg flex items-center gap-2">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             Personalização selecionada:
@@ -384,7 +351,7 @@ export function BudgetForm() {
       )}
 
       {formState.productType === "encapsulado" && formState.step > 5 && (
-        <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
+        <div className="bg-white rounded-lg border border-neutral-300 p-4 space-y-1">
           <h2 className="text-base font-medium sm:text-lg inline-flex items-center gap-2">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             Tampa, Pote e Quantidade selecionadas:
@@ -424,5 +391,5 @@ export function BudgetForm() {
       {formState.step === 5 && <Step5Capsule />}
       {formState.step === 6 && <Step6Resume />}
     </div>
-  );
+  )
 }

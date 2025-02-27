@@ -92,7 +92,7 @@ export function Step4Liquid() {
   return (
     <div className="space-y-4 py-4">
       {/* Quantidade de liquido */}
-      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Drop size={24} weight="bold" className="text-blue-500" />
@@ -125,13 +125,13 @@ export function Step4Liquid() {
       </div>
 
       {/* Sabor */}
-      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Drop size={24} weight="bold" className="text-blue-500" />
             Escolha o sabor:
           </h2>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
             {formData.liquid.flavors.map(({ label, name }, index) => (
               <label
                 key={index}
@@ -158,7 +158,7 @@ export function Step4Liquid() {
       </div>
 
       {/* Cor da tampa */}
-      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Nut size={24} weight="bold" className="text-blue-500" />
@@ -177,7 +177,7 @@ export function Step4Liquid() {
               {formData.liquid.lidColors.map(({ src, color, label }, index) => (
                 <button
                   key={index}
-                  className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.modelLabel === label && "scale-125"}`}
+                  className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-300 cursor-fronty-pointer transition-all ${selected.modelLabel === label && "scale-125"}`}
                   onClick={() => handleSelectModelLabel(label, src, color.name)}
                 ></button>
               ))}
@@ -187,13 +187,13 @@ export function Step4Liquid() {
       </div>
 
       {/* Quantidade total */}
-      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
+      <div className="border border-neutral-300 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
             <Drop size={24} weight="bold" className="text-blue-500" />
             Escolha a quantidade que deseja orçar:
           </h2>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {formData.liquid.totQtd.map((qtd, index) => (
               <label
                 key={index}

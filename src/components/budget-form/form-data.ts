@@ -33,17 +33,17 @@ export const formData = {
             name: "Ansiedade",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "formula 3",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -53,17 +53,17 @@ export const formData = {
             name: "Anti Estresse",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -73,17 +73,17 @@ export const formData = {
             name: "Anti Tabagismo",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -93,17 +93,17 @@ export const formData = {
             name: "Articulações",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -113,17 +113,17 @@ export const formData = {
             name: "Audição",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -133,17 +133,17 @@ export const formData = {
             name: "Diabetes",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -153,17 +153,17 @@ export const formData = {
             name: "Digestão",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -173,17 +173,17 @@ export const formData = {
             name: "Dores Articulares",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -193,17 +193,17 @@ export const formData = {
             name: "Enxaqueca",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -213,17 +213,17 @@ export const formData = {
             name: "Estimulante Sexual",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -233,17 +233,17 @@ export const formData = {
             name: "Fertilidade",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -253,17 +253,17 @@ export const formData = {
             name: "Fígado",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -273,17 +273,17 @@ export const formData = {
             name: "Foco, Memória & Concentração",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -293,17 +293,17 @@ export const formData = {
             name: "Gastrite",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -313,17 +313,17 @@ export const formData = {
             name: "Hemorróidas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -333,17 +333,17 @@ export const formData = {
             name: "Hipertensão",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -353,17 +353,17 @@ export const formData = {
             name: "Imunidade",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -373,17 +373,17 @@ export const formData = {
             name: "Próstata",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -393,17 +393,17 @@ export const formData = {
             name: "Ressaca",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -413,17 +413,17 @@ export const formData = {
             name: "Sono",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -433,17 +433,17 @@ export const formData = {
             name: "TPM & Menopausa",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -453,17 +453,17 @@ export const formData = {
             name: "Visão",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -479,17 +479,17 @@ export const formData = {
             name: "Ácido Hialurônico",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -499,17 +499,17 @@ export const formData = {
             name: "Acnes/Manchas na Pele",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -519,17 +519,17 @@ export const formData = {
             name: "Anti Envelhecimento e Rugas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -539,17 +539,17 @@ export const formData = {
             name: "Autobronzeador",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -559,17 +559,17 @@ export const formData = {
             name: "Cabelo, Pele e Unha",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -579,17 +579,17 @@ export const formData = {
             name: "Celulite",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -599,17 +599,17 @@ export const formData = {
             name: "Colágeno",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -619,17 +619,17 @@ export const formData = {
             name: "Queda Capilar",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -639,17 +639,17 @@ export const formData = {
             name: "Varizes",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -665,17 +665,17 @@ export const formData = {
             name: "Creatina",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -685,17 +685,17 @@ export const formData = {
             name: "Pré-Treino",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -705,17 +705,17 @@ export const formData = {
             name: "BCAA",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -725,17 +725,17 @@ export const formData = {
             name: "Glutamina",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -745,17 +745,17 @@ export const formData = {
             name: "Termogênico",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -765,17 +765,17 @@ export const formData = {
             name: "Colágeno Verisol",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -785,17 +785,17 @@ export const formData = {
             name: "Polivitamínico",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -805,17 +805,17 @@ export const formData = {
             name: "Vitaminas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -825,17 +825,17 @@ export const formData = {
             name: "Minerais",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -852,17 +852,17 @@ export const formData = {
             description: "Blend de vitaminas digestivas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -873,17 +873,17 @@ export const formData = {
             description: "Blend de vitaminas diuréticas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -894,17 +894,17 @@ export const formData = {
             description: "Laranja Moro, L-Carnitina e Café Verde",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -915,17 +915,17 @@ export const formData = {
             description: "Picolinato de Cromo, Spirulina, Quitosana e Psyllium",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -941,17 +941,17 @@ export const formData = {
             name: "Fórmula personalizada",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1211,17 +1211,17 @@ export const formData = {
             name: "Creatina",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1231,17 +1231,17 @@ export const formData = {
             name: "Pré-Treino",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1251,17 +1251,17 @@ export const formData = {
             name: "BCAA",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1271,17 +1271,17 @@ export const formData = {
             name: "Glutamina",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1291,17 +1291,17 @@ export const formData = {
             name: "Termogênico",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1311,17 +1311,17 @@ export const formData = {
             name: "Colágeno Verisol",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1331,17 +1331,17 @@ export const formData = {
             name: "Fórmula Personalizada",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1398,17 +1398,17 @@ export const formData = {
             name: "Ansiedade",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1418,17 +1418,17 @@ export const formData = {
             name: "Anti Estresse",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1438,17 +1438,17 @@ export const formData = {
             name: "Anti Tabagismo",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1458,17 +1458,17 @@ export const formData = {
             name: "Articulações",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1478,17 +1478,17 @@ export const formData = {
             name: "Audição",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1498,17 +1498,17 @@ export const formData = {
             name: "Diabetes",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1518,17 +1518,17 @@ export const formData = {
             name: "Digestão",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1538,17 +1538,17 @@ export const formData = {
             name: "Dores Articulares",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1558,17 +1558,17 @@ export const formData = {
             name: "Enxaqueca",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1578,17 +1578,17 @@ export const formData = {
             name: "Estimulante Sexual",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1598,17 +1598,17 @@ export const formData = {
             name: "Fertilidade",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1618,17 +1618,17 @@ export const formData = {
             name: "Fígado",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1638,17 +1638,17 @@ export const formData = {
             name: "Foco, Memória & Concentração",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1658,17 +1658,17 @@ export const formData = {
             name: "Gastrite",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1678,17 +1678,17 @@ export const formData = {
             name: "Hemorróidas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1698,17 +1698,17 @@ export const formData = {
             name: "Hipertensão",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1718,17 +1718,17 @@ export const formData = {
             name: "Imunidade",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1738,17 +1738,17 @@ export const formData = {
             name: "Próstata",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1758,17 +1758,17 @@ export const formData = {
             name: "Ressaca",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1778,17 +1778,17 @@ export const formData = {
             name: "Sono",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1798,17 +1798,17 @@ export const formData = {
             name: "TPM & Menopausa",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1818,17 +1818,17 @@ export const formData = {
             name: "Visão",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1844,17 +1844,17 @@ export const formData = {
             name: "Ácido Hialurônico",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1864,17 +1864,17 @@ export const formData = {
             name: "Acnes/Manchas na Pele",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1884,17 +1884,17 @@ export const formData = {
             name: "Anti Envelhecimento e Rugas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1904,17 +1904,17 @@ export const formData = {
             name: "Autobronzeador",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1924,17 +1924,17 @@ export const formData = {
             name: "Cabelo, Pele e Unha",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1944,17 +1944,17 @@ export const formData = {
             name: "Celulite",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1964,17 +1964,17 @@ export const formData = {
             name: "Colágeno",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -1984,17 +1984,17 @@ export const formData = {
             name: "Queda Capilar",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2004,17 +2004,17 @@ export const formData = {
             name: "Varizes",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2030,17 +2030,17 @@ export const formData = {
             name: "Creatina",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2050,17 +2050,17 @@ export const formData = {
             name: "Pré-Treino",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2070,17 +2070,17 @@ export const formData = {
             name: "BCAA",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2090,17 +2090,17 @@ export const formData = {
             name: "Glutamina",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2110,17 +2110,17 @@ export const formData = {
             name: "Termogênico",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2130,17 +2130,17 @@ export const formData = {
             name: "Colágeno Verisol",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2150,17 +2150,17 @@ export const formData = {
             name: "Polivitamínico",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2170,17 +2170,17 @@ export const formData = {
             name: "Vitaminas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2190,17 +2190,17 @@ export const formData = {
             name: "Minerais",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2217,17 +2217,17 @@ export const formData = {
             description: "Blend de vitaminas digestivas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2238,17 +2238,17 @@ export const formData = {
             description: "Blend de vitaminas diuréticas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2259,17 +2259,17 @@ export const formData = {
             description: "Laranja Moro, L-Carnitina e Café Verde",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2280,17 +2280,17 @@ export const formData = {
             description: "Picolinato de Cromo, Spirulina, Quitosana e Psyllium",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2306,17 +2306,17 @@ export const formData = {
             name: "Fórmula personalizada",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2374,17 +2374,17 @@ export const formData = {
             name: "Shampoo",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2394,17 +2394,17 @@ export const formData = {
             name: "Condicionador",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2414,17 +2414,17 @@ export const formData = {
             name: "Máscaras",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2434,17 +2434,17 @@ export const formData = {
             name: "Cremes",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2454,17 +2454,17 @@ export const formData = {
             name: "Finalizador",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2474,17 +2474,17 @@ export const formData = {
             name: "Tônico",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2494,17 +2494,17 @@ export const formData = {
             name: "Produto Personalizado",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2520,17 +2520,17 @@ export const formData = {
             name: "Creme Dores Musculares",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2540,17 +2540,17 @@ export const formData = {
             name: "Gel Redutor de Medidas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2560,17 +2560,17 @@ export const formData = {
             name: "Creme Anti Manchas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2580,17 +2580,17 @@ export const formData = {
             name: "Creme Clareador",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2600,17 +2600,17 @@ export const formData = {
             name: "Gel Anti Celulite",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2620,17 +2620,17 @@ export const formData = {
             name: "Produto Personalizado",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2646,17 +2646,17 @@ export const formData = {
             name: "Sérum Facial",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2666,17 +2666,17 @@ export const formData = {
             name: "Creme Anti Acne",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2686,17 +2686,17 @@ export const formData = {
             name: "Creme Anti Manchas",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2706,17 +2706,17 @@ export const formData = {
             name: "Produto Personalizado",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2732,17 +2732,17 @@ export const formData = {
             name: "Gel Peniano",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2752,17 +2752,17 @@ export const formData = {
             name: "Creme para Massagem",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
@@ -2772,17 +2772,17 @@ export const formData = {
             name: "Produto Personalizado",
             receips: [
               {
-                name: "formula-1",
+                name: "Formula 1",
                 label: "Fórmula 1",
                 src: "/capsule/capsules/branca.png",
               },
               {
-                name: "formula-2",
+                name: "Formula 2",
                 label: "Fórmula 2",
                 src: "/capsule/capsules/preta.png",
               },
               {
-                name: "formula-3",
+                name: "Personalizado",
                 label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },

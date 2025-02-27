@@ -48,6 +48,7 @@ interface FormStep {
     totalQtd: string;
     preview: string;
   };
+  formSubmitted: boolean
 }
 
 interface FormContextType {
@@ -71,7 +72,7 @@ export const FormProvider: React.FC<{ children: React.ReactNode }> = ({
   const [formState, setFormState] = useState<FormStep>({
     username: "",
     whatsapp: "",
-    step: 1,
+    step: 0,
     productType: null,
     niche: {
       name: "",
@@ -105,7 +106,10 @@ export const FormProvider: React.FC<{ children: React.ReactNode }> = ({
       totalQtd: "",
       preview: "",
     },
+    formSubmitted: false
   });
+
+  console.log(formState)
 
   return (
     <FormContext.Provider value={{ formState, setFormState }}>
