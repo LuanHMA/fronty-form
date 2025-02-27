@@ -109,8 +109,6 @@ export const FormProvider: React.FC<{ children: React.ReactNode }> = ({
     formSubmitted: false
   });
 
-  console.log(formState)
-
   return (
     <FormContext.Provider value={{ formState, setFormState }}>
       {children}

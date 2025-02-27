@@ -12,8 +12,6 @@ import { Step6Resume } from "./step-6";
 export function BudgetForm() {
   const { formState, setFormState } = useFormContext();
 
-  console.log(formState.step === 1)
-
   const handleChangeStep = (step: number) => {
     switch (step) {
       case 1:

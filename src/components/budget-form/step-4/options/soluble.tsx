@@ -39,7 +39,6 @@ export function Step4Soluble() {
 
   const handleNextStep = () => {
     if (isFormComplete(selected)) {
-      console.log(selected);
       setFormState({
         ...formState,
         step: 6,

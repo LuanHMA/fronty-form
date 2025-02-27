@@ -103,8 +103,6 @@ export function Step5Capsule() {
     const { lidColor, lidModel, lidSrc, potColor, potModel, potSrc, totQtd } =
       selected;
 
-    console.log(selected);
-
     const isValidLid =
       lidColor && ["flipTop", "lisa"].includes(lidModel) && lidSrc;
     const isValidPot =

@@ -24,7 +24,6 @@ export function Step4Capsule() {
   };
 
   const handleSelectCapsuleQtd = (qtd: string, label: string) => {
-    console.log(label);
     setSelected({ ...selected, capsulesQtd: qtd, capsulesQtdLabel: label });
   };
 
