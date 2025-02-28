@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { CheckSquareOffset } from "@phosphor-icons/react";
@@ -43,7 +43,7 @@ export function InitalForm() {
   const { setFormState, formState } = useFormContext();
 
   const handleSubmitForm = async (data: initialFormSchemaType) => {
-    const phone = data.phone.replace(/\D/g, "");
+    const phone = `+55${data.phone.replace(/\D/g, "")}`;
 
     try {
       const response = await axios.post(
@@ -56,7 +56,13 @@ export function InitalForm() {
 
       if (response.data.status === 201) {
         Cookies.set("token", response.data.token);
-        setFormState({ ...formState, step: 1, username: data.name, whatsapp: phone, formSubmitted: true });
+        setFormState({
+          ...formState,
+          step: 1,
+          username: data.name,
+          whatsapp: phone,
+          formSubmitted: true,
+        });
       }
     } catch (error) {
       console.log(error);
@@ -64,75 +70,79 @@ export function InitalForm() {
   };
 
   return (
-    <form
-      className="w-full bg-white rounded-lg border border-neutral-200 p-4 max-w-2xl flex flex-col items-center gap-6 mt-10"
-      onSubmit={handleSubmit(handleSubmitForm)}
-    >
-      <div className=" flex items-start gap-2 sm:items-center">
-        <CheckSquareOffset
-          size={20}
-          weight="bold"
-          className="text-semibold text-blue-600 w-5"
-        />
-        <h2 className="text-base font-semibold text-blue-600 flex-1">
-          Insira seus dados para Iniciar a Criação do seu Produto
-        </h2>
-      </div>
-
-      <div className="flex flex-col gap-6 items-start w-full">
-        <div className="w-full flex flex-col sm:flex-row items-center gap-4">
-          <fieldset className="flex flex-col gap-1 items-start w-full">
-            <label
-              className="text-base font-semibold text-blue-600"
-              htmlFor="name"
-            >
-              Nome
-            </label>
-            <input
-              className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
-              type="text"
-              placeholder="Digite seu nome completo"
-              id="name"
-              {...register("name")}
-            />
-            {errors.name && (
-              <span className="text-xs text-red-600 ml-1">
-                {errors.name.message}
-              </span>
-            )}
-          </fieldset>
-
-          <fieldset className="flex flex-col gap-1 items-start w-full">
-            <label
-              className="text-base font-semibold text-blue-600"
-              htmlFor="phone"
-            >
-              Telefone
-            </label>
-            <input
-              className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-500"
-              type="text"
-              placeholder="+00 (00) 0000-0000"
-              id="phone"
-              {...registerWithMask("phone", "+99 (99) 99999-9999", {
-                showMaskOnFocus: false,
-                showMaskOnHover: false,
-              })}
-            />
-            {errors.phone && (
-              <span className="text-xs text-red-600 ml-1">
-                {errors.phone.message}
-              </span>
-            )}
-          </fieldset>
+    <div className="flex flex-col items-center gap-4 w-full p-4 max-w-2xl">
+       <h3 className="text-2xl font-bold text-blue-600 sm:text-3xl">Meu Projeto</h3>
+      <form
+        className="bg-white rounded-lg border border-neutral-200 p-4 sm:p-6 flex flex-col items-center gap-6"
+        onSubmit={handleSubmit(handleSubmitForm)}
+      >
+       
+        <div className=" flex items-start gap-2 sm:items-center">
+          <CheckSquareOffset
+            size={20}
+            weight="bold"
+            className="text-semibold text-blue-600 w-5"
+          />
+          <h2 className="text-base font-semibold text-blue-600 flex-1">
+            Insira seus dados para Iniciar a Criação do seu Produto
+          </h2>
         </div>
-        <button
-          className="w-full bg-gradient-to-r from-[#1e12ce] to-[#0083fb] text-white p-3 rounded-lg col-span-2 max-w-xs mx-auto hover:shadow-[0px_10px_25px_0px_#0083fb] transition-all disabled:pointer-events-none disabled:opacity-50 ease duration-300 text-lg"
-          disabled={isSubmitting}
-        >
-          {isSubmitting ? "Iniciando..." : "Iniciar projeto"}
-        </button>
-      </div>
-    </form>
+
+        <div className="flex flex-col gap-6 items-start w-full">
+          <div className="w-full flex flex-col sm:flex-row items-center gap-4">
+            <fieldset className="flex flex-col gap-1 items-start w-full">
+              <label
+                className="text-base font-semibold text-blue-600"
+                htmlFor="name"
+              >
+                Nome
+              </label>
+              <input
+                className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-600"
+                type="text"
+                placeholder="Digite seu nome completo"
+                id="name"
+                {...register("name")}
+              />
+              {errors.name && (
+                <span className="text-xs text-red-600 ml-1">
+                  {errors.name.message}
+                </span>
+              )}
+            </fieldset>
+
+            <fieldset className="flex flex-col gap-1 items-start w-full">
+              <label
+                className="text-base font-semibold text-blue-600"
+                htmlFor="phone"
+              >
+                Telefone
+              </label>
+              <input
+                className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-600"
+                type="text"
+                placeholder="(00) 0000-0000"
+                id="phone"
+                {...registerWithMask("phone", "(99) 99999-9999", {
+                  showMaskOnFocus: false,
+                  showMaskOnHover: false,
+                })}
+              />
+              {errors.phone && (
+                <span className="text-xs text-red-600 ml-1">
+                  {errors.phone.message}
+                </span>
+              )}
+            </fieldset>
+          </div>
+          <button
+            className="w-full bg-gradient-to-r from-[#1e12ce] to-[#0083fb] text-white p-3 rounded-lg col-span-2 max-w-xs mx-auto hover:shadow-[0px_10px_25px_0px_#0083fb] transition-all disabled:pointer-events-none disabled:opacity-50 ease duration-300 text-lg"
+            disabled={isSubmitting}
+          >
+            {isSubmitting ? "Iniciando..." : "Iniciar projeto"}
+          </button>
+        </div>
+      </form>
+    </div>
   );
 }

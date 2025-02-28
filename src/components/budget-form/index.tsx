@@ -243,7 +243,7 @@ export function BudgetForm() {
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <h2 className="text-base font-medium sm:text-lg">
               Tipo de produto selecionado:
-              <span className="font-semibold text-blue-500 capitalize ml-2">
+              <span className="font-semibold text-blue-600 capitalize ml-2">
                 {formState.productType}
               </span>
             </h2>

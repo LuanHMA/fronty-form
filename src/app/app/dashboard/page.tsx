@@ -74,7 +74,7 @@ export default function DashboardPage() {
             <h2 className="text-neutral-600 font-semibold text-base">
               Total de formulários iniciados
             </h2>
-            <p className="text-4xl text-blue-500 font-bold">
+            <p className="text-4xl text-blue-600 font-bold">
               {forms.info.total}
             </p>
           </div>
@@ -89,7 +89,7 @@ export default function DashboardPage() {
             <h2 className="text-neutral-600 font-semibold text-base">
               Total de formulários finalizados
             </h2>
-            <p className="text-4xl text-blue-500 font-bold">
+            <p className="text-4xl text-blue-600 font-bold">
               {forms.info.finished}
             </p>
           </div>

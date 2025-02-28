@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
@@ -40,7 +40,7 @@ export function Step3() {
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6">
         <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2 ">
-          <Nut size={24} weight="bold" className="text-blue-500 " />
+          <Nut size={24} weight="bold" className="text-blue-600 " />
           Escolha a fórmula que você deseja no seu produto:
         </h2>
 
@@ -50,8 +50,15 @@ export function Step3() {
               <label
                 htmlFor={name}
                 key={index}
-                className={`p-6 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-xl hover:shadow-blue-300 ease transition-all ${selected.name === name ? "bg-blue-500 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-3 flex flex-col gap-4 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-xl hover:shadow-blue-300 ease transition-all ${
+                  selected.name === name
+                    ? "bg-blue-600 text-white"
+                    : "bg-white border text-neutral-800"
+                }`}
               >
+                <span className="font-semibold text-left w-full text-sm">
+                  {label}
+                </span>
                 <img
                   src={src}
                   alt={name}
@@ -71,17 +78,16 @@ export function Step3() {
                   }
                   {...register("receipe")}
                 />
-
-                <div className="flex items-center gap-1">
-                  <Flask size={24} />
-                  <span className=" font-semibold text-center text-base sm:text-lg">
-                    {label}
-                  </span>
-                </div>
               </label>
             );
           })}
         </div>
+
+        <p className="text-neutral-900 text-xs sm:text-sm">
+          <span className="text-red-600 font-bold">Atenção:</span> As fórmulas acima são somente referências! As substâncias e
+          quantidade mínima e máxima permitidas serão analisadas conforme
+          legislação em vigor e exigências da Anvisa na data da fabricação.
+        </p>
       </div>
 
       <div className="w-full flex justify-end">

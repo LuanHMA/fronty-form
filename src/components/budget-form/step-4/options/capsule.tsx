@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { ArrowRight, CircleHalf, Nut, Pill } from "@phosphor-icons/react";
 import { useFormContext } from "../../../../context/form-contenxt";
-import { formData } from "../../form-data";
+import { formData } from "../../../../data/form-data";
 export function Step4Capsule() {
   const { formState, setFormState } = useFormContext();
   const [selected, setSelected] = useState({
@@ -53,7 +53,7 @@ export function Step4Capsule() {
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Pill size={24} weight="bold" className="text-blue-500" />
+            <Pill size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade de capsulas:
           </h2>
           <div className="grid-cols-1 grid sm:grid-cols-3 gap-4">
@@ -61,7 +61,7 @@ export function Step4Capsule() {
               <label
                 key={index}
                 htmlFor={"capsule" + value}
-                className={`p-6 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.capsulesQtd === value ? "bg-blue-500 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-6 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.capsulesQtd === value ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
               >
                 <input
                   type="radio"
@@ -91,7 +91,7 @@ export function Step4Capsule() {
           {/* Capsula */}
           <div className="space-y-6">
             <h2 className="text-base sm:text-xl font-medium flex items-start gap-2">
-              <Nut size={24} weight="bold" className="text-blue-500" />
+              <Nut size={24} weight="bold" className="text-blue-600" />
               Escolha a cor da capsula
             </h2>
 

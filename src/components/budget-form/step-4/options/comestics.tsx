@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { ArrowRight, Nut, Pill } from "@phosphor-icons/react";
 import { useFormContext } from "../../../../context/form-contenxt";
-import { formData } from "../../form-data";
+import { formData } from "../../../../data/form-data";
 
 export function Step4Comestics() {
   const { formState, setFormState } = useFormContext();
@@ -87,7 +87,7 @@ export function Step4Comestics() {
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Nut size={24} weight="bold" className="text-blue-500" />
+            <Nut size={24} weight="bold" className="text-blue-600" />
             Escolha a cor do pote:
           </h2>
 
@@ -116,7 +116,7 @@ export function Step4Comestics() {
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Pill size={24} weight="bold" className="text-blue-500" />
+            <Pill size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade do pote:
           </h2>
           <div className="grid grid-cols-3 gap-4">
@@ -124,7 +124,7 @@ export function Step4Comestics() {
               <label
                 key={index}
                 htmlFor={"capsule" + value}
-                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.unitQtd === value ? "bg-blue-500 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.unitQtd === value ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
               >
                 <input
                   type="radio"
@@ -149,7 +149,7 @@ export function Step4Comestics() {
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Nut size={24} weight="bold" className="text-blue-500" />
+            <Nut size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade que deseja orçar:
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -157,7 +157,7 @@ export function Step4Comestics() {
               <label
                 key={index}
                 htmlFor={qtd}
-                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.totQtd === qtd ? "bg-blue-500 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.totQtd === qtd ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
               >
                 <input
                   type="radio"

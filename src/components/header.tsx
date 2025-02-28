@@ -6,40 +6,19 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 export function Header() {
-  const [isScrolling, setIsScrolling] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolling(true);
-      } else {
-        setIsScrolling(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <header
-      className={`w-[95%] max-w-4xl z-[99] mx-auto mt-4 fixed top-0  transition-all rounded-2xl duration-700 ease-out ${isScrolling ? "bg-gradient-to-r from-blue-600 to-blue-500 shadow-2xl" : "bg-transparent shadow-none"}`}
+      className={`w-[95%] max-w-4xl h-20 flex justify-start items-center z-[99] mx-auto bg-transparent shadow-none`}
     >
-      <div className="flex items-center justify-center sm:justify-between p-2 sm:px-5 sm:py-4">
-        {isScrolling ? (
-          <Image src={LogoWhite} alt="Logo Fronty" className="w-40 mt-2" />
-        ) : (
+      <div className="w-full flex items-center justify-center sm:justify-between p-2 sm:px-5 sm:py-4">
+    
           <Image src={Logo} alt="Logo Fronty" className="w-40 mt-2" />
-        )}
 
         <nav className="sm:flex hidden">
           <ul className={"flex items-center gap-8"}>
             <li>
               <a
-                className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  ${isScrolling ? "text-white" : "text-blue-500"}`}
+                className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  text-blue-600 `}
                 href="#"
               >
                 Início
@@ -48,7 +27,7 @@ export function Header() {
 
             <li>
               <a
-                className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  ${isScrolling ? "text-white" : "text-blue-500"}`}
+                className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  text-blue-600 `}
                 href=""
               >
                 Nossos serviços
@@ -57,7 +36,7 @@ export function Header() {
 
             <li>
               <a
-                className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  ${isScrolling ? "text-white" : "text-blue-500"}`}
+                className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  text-blue-600 `}
                 href=""
               >
                 Quem somos
@@ -66,7 +45,7 @@ export function Header() {
 
             <li>
               <a
-                className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  ${isScrolling ? "text-white" : "text-blue-500"}`}
+                className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  text-blue-600 `}
                 href=""
               >
                 Contato

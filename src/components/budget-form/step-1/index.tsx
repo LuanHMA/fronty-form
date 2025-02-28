@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { ArrowRight, Nut } from "@phosphor-icons/react";
 import { useFormContext } from "../../../context/form-contenxt";
-import { formData } from "../form-data";
+import { formData } from "../../../data/form-data";
 import Image from "next/image";
 
 const formSchema = z.object({
@@ -31,7 +31,7 @@ export function Step1() {
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4">
         <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2 text-blue-600">
-          <Nut size={24} weight="bold" className="text-blue-500" />
+          <Nut size={24} weight="bold" className="text-blue-600" />
           Escolha o tipo de produto
         </h2>
 
@@ -41,7 +41,7 @@ export function Step1() {
               <label
                 key={index}
                 htmlFor={name}
-                className={`p-6 flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:translate-y-1  hover:shadow-[0px_10px_25px_0px_#0083fb] ease transition-all ${selected === name ? "bg-blue-500 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
+                className={`p-6 flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:translate-y-1  hover:shadow-[0px_10px_25px_0px_#0083fb] ease transition-all ${selected === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
               >
                 <Image
                   src={src}

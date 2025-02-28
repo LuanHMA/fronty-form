@@ -14,8 +14,8 @@ export const formData = {
       label: "Encapsulado",
       src: "/capsule/combinacoes/flipTop-azul-r80-branca.png",
     },
+    { name: "liquido", label: "Líquido", src: "/liquid/frasco-preto.png" },
     { name: "soluvel", label: "Solúvel", src: "/soluble/pote-branco.png" },
-    { name: "liquido", label: "Líquido", src: "/liquid/frasco-branco.png" },
     {
       name: "cosmetico",
       label: "Cosmético",
@@ -44,7 +44,7 @@ export const formData = {
               },
               {
                 name: "formula 3",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -64,7 +64,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -84,7 +84,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -104,7 +104,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -124,7 +124,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -144,7 +144,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -164,7 +164,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -184,7 +184,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -204,7 +204,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -224,7 +224,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -244,7 +244,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -264,7 +264,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -284,7 +284,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -304,7 +304,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -324,7 +324,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -344,7 +344,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -364,7 +364,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -384,7 +384,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -404,7 +404,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -424,7 +424,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -444,7 +444,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -464,379 +464,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        category: "Beleza",
-        Icon: HairDryer,
-        options: [
-          {
-            name: "Ácido Hialurônico",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Acnes/Manchas na Pele",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Anti Envelhecimento e Rugas",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Autobronzeador",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Cabelo, Pele e Unha",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Celulite",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Colágeno",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Queda Capilar",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Varizes",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        category: "Performance",
-        Icon: TrendUp,
-        options: [
-          {
-            name: "Creatina",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Pré-Treino",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "BCAA",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Glutamina",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Termogênico",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Colágeno Verisol",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Polivitamínico",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Vitaminas",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Minerais",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -863,7 +491,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -884,7 +512,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -905,7 +533,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -926,13 +554,386 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
           },
         ],
       },
+      {
+        category: "Beleza",
+        Icon: HairDryer,
+        options: [
+          {
+            name: "Ácido Hialurônico",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Acnes/Manchas na Pele",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Anti Envelhecimento e Rugas",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Autobronzeador",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Cabelo, Pele e Unha",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Celulite",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Colágeno",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Queda Capilar",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Varizes",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        category: "Performance",
+        Icon: TrendUp,
+        options: [
+          {
+            name: "Creatina",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Pré-Treino",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "BCAA",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Glutamina",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Termogênico",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Colágeno Verisol",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Polivitamínico",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Vitaminas",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Minerais",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+        ],
+      },
+    
       {
         category: "Personalizado",
         Icon: GearSix,
@@ -952,7 +953,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1001,7 +1002,7 @@ export const formData = {
         color: "personalizada",
         src: "/capsule/capsules/transparente.png",
         colorCode:
-          "bg-gradient-to-b from-red-500 via-yellow-500 via-green-500 via-blue-500 to-purple-500",
+          "bg-gradient-to-b from-red-500 via-yellow-500 via-green-500 via-blue-600 to-purple-500",
         label: "Cápsula personalizada",
       },
     ],
@@ -1038,7 +1039,7 @@ export const formData = {
             color: "azul",
             label: "Azul",
             src: "/capsule/tampas/flip-top-azul.png",
-            colorCode: "bg-blue-500",
+            colorCode: "bg-blue-600",
           },
           {
             color: "vermelha",
@@ -1076,7 +1077,7 @@ export const formData = {
             color: "azul",
             label: "Azul",
             src: "/capsule/tampas/tampa-azul.png",
-            colorCode: "bg-blue-500",
+            colorCode: "bg-blue-600",
           },
           {
             color: "vermelha",
@@ -1222,7 +1223,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1242,7 +1243,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1262,7 +1263,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1282,7 +1283,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1302,7 +1303,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1322,7 +1323,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1342,7 +1343,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1409,7 +1410,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1429,7 +1430,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1449,7 +1450,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1469,7 +1470,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1489,7 +1490,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1509,7 +1510,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1529,7 +1530,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1549,7 +1550,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1569,7 +1570,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1589,7 +1590,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1609,7 +1610,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1629,7 +1630,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1649,7 +1650,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1669,7 +1670,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1689,7 +1690,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1709,7 +1710,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1729,7 +1730,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1749,7 +1750,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1769,7 +1770,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1789,7 +1790,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1809,7 +1810,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1829,379 +1830,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        category: "Beleza",
-        Icon: HairDryer,
-        options: [
-          {
-            name: "Ácido Hialurônico",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Acnes/Manchas na Pele",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Anti Envelhecimento e Rugas",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Autobronzeador",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Cabelo, Pele e Unha",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Celulite",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Colágeno",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Queda Capilar",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Varizes",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        category: "Performance",
-        Icon: TrendUp,
-        options: [
-          {
-            name: "Creatina",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Pré-Treino",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "BCAA",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Glutamina",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Termogênico",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Colágeno Verisol",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Polivitamínico",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Vitaminas",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
-                src: "/capsule/capsules/vermelha.png",
-              },
-            ],
-          },
-          {
-            name: "Minerais",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
-              },
-              {
-                name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2228,7 +1857,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2249,7 +1878,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2270,7 +1899,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2291,13 +1920,386 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
           },
         ],
       },
+      {
+        category: "Beleza",
+        Icon: HairDryer,
+        options: [
+          {
+            name: "Ácido Hialurônico",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Acnes/Manchas na Pele",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Anti Envelhecimento e Rugas",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Autobronzeador",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Cabelo, Pele e Unha",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Celulite",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Colágeno",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Queda Capilar",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Varizes",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        category: "Performance",
+        Icon: TrendUp,
+        options: [
+          {
+            name: "Creatina",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Pré-Treino",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "BCAA",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Glutamina",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Termogênico",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Colágeno Verisol",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Polivitamínico",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Vitaminas",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+          {
+            name: "Minerais",
+            receips: [
+              {
+                name: "Formula 1",
+                label: "Fórmula 1",
+                src: "/capsule/capsules/branca.png",
+              },
+              {
+                name: "Formula 2",
+                label: "Fórmula 2",
+                src: "/capsule/capsules/preta.png",
+              },
+              {
+                name: "Personalizado",
+                label: "Personalizado",
+                src: "/capsule/capsules/vermelha.png",
+              },
+            ],
+          },
+        ],
+      },
+    
       {
         category: "Personalizado",
         Icon: GearSix,
@@ -2317,7 +2319,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2385,7 +2387,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2405,7 +2407,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2425,7 +2427,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2445,7 +2447,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2465,7 +2467,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2485,7 +2487,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2505,7 +2507,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2531,7 +2533,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2551,7 +2553,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2571,7 +2573,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2591,7 +2593,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2611,7 +2613,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2631,7 +2633,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2657,7 +2659,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2677,7 +2679,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2697,7 +2699,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2717,7 +2719,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2743,7 +2745,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2763,7 +2765,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2783,7 +2785,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Fórmula 3",
+                label: "Personalizado",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],

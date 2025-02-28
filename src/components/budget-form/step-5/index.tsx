@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ArrowRight, CircleHalf, Nut } from "@phosphor-icons/react";
-import { formData } from "../form-data";
+import { formData } from "../../../data/form-data";
 import { useFormContext } from "../../../context/form-contenxt";
 
 interface selectedProps {
@@ -127,6 +127,7 @@ export function Step5Capsule() {
     }));
   };
 
+
   const selectedCombinatation = `/capsule/combinacoes/${selected.lidModel}-${selected.lidColor}-${selected.potModel.toLocaleLowerCase()}-${selected.potColor}.png`;
 
   return (
@@ -135,7 +136,7 @@ export function Step5Capsule() {
         {/* Capsula */}
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Nut size={24} weight="bold" className="text-blue-500" />
+            <Nut size={24} weight="bold" className="text-blue-600" />
             Escolha o modelo e cor do pote e da tampa
           </h2>
 
@@ -152,7 +153,7 @@ export function Step5Capsule() {
                     >
                       <label
                         htmlFor={name}
-                        className={`p-1 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2  ease transition-all ${selected.lidModel === name ? "bg-blue-500 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
+                        className={`p-1 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2  ease transition-all ${selected.lidModel === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
                       >
                         <img src={src} alt={label} className="object-cover" />
                         <input
@@ -212,7 +213,7 @@ export function Step5Capsule() {
                       <label
                         key={index}
                         htmlFor={name}
-                        className={`p-2 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2 ease transition-all ${selected.potModel === name ? "bg-blue-500 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
+                        className={`p-2 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2 ease transition-all ${selected.potModel === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
                       >
                         <img
                           src={src}
@@ -263,14 +264,21 @@ export function Step5Capsule() {
               </div>
             </div>
 
+
             {/* Resumo */}
-            <div className="flex flex-col justify-center items-center  mb:0 gap-8 sm:col-span-2 sm:mb-24 lg:col-span-1">
-              <h2 className="text-lg font-semibold">Pre-visualização:</h2>
-              <img
-                src={selectedCombinatation}
-                alt="Modelo selecionado"
-                className="bg-neutral-100 rounded-lg w-72"
-              />
+            <div className="flex flex-col justify-center items-center mb-20 gap-8 sm:col-span-2 lg:col-span-1">
+              <div className=" h-[94px] flex justify-center items-center">
+                <h2 className="text-lg font-semibold text-blue-600  border rounded-lg border-neutral-200 py-5 px-4">Pre-visualização:</h2>
+              </div>
+
+              <div className="h-[416px]">
+                <img
+                  src={selectedCombinatation}
+                  alt="Modelo selecionado"
+                  className="bg-neutral-100 rounded-lg w-72"
+                />
+
+              </div>
             </div>
           </div>
         </div>
@@ -280,7 +288,7 @@ export function Step5Capsule() {
         {/* Capsula */}
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Nut size={24} weight="bold" className="text-blue-500" />
+            <Nut size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade que deseja orçar:
           </h2>
 
@@ -289,7 +297,7 @@ export function Step5Capsule() {
               <label
                 key={index}
                 htmlFor={qtd}
-                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.totQtd === qtd ? "bg-blue-500 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.totQtd === qtd ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
               >
                 <input
                   type="radio"
@@ -313,7 +321,7 @@ export function Step5Capsule() {
       <div className="w-full flex justify-end">
         <button
           type="button"
-          className="bg-blue-500 text-white py-3 px-6 text-sm rounded-lg disabled:opacity-50 flex items-center gap-2"
+          className="bg-blue-600 text-white py-3 px-6 text-sm rounded-lg disabled:opacity-50 flex items-center gap-2"
           onClick={handleNextStep}
         >
           Próximo
