@@ -40,7 +40,7 @@ export function Step3() {
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6">
         <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2 ">
-          <Nut size={24} weight="bold" className="text-blue-600 " />
+        <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
           Escolha a fórmula que você deseja no seu produto:
         </h2>
 

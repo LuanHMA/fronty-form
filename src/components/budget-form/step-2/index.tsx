@@ -70,7 +70,7 @@ export function Step2() {
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6">
         <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-          <Nut size={24} weight="bold" className="text-blue-600" />
+        <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
           Escolha o nicho de atuação do seu Produto
         </h2>
         <div className="grid grid-cols-1 gap-4 space-y-4">

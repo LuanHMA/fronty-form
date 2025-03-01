@@ -97,7 +97,7 @@ export function Step4Soluble() {
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Nut size={24} weight="bold" className="text-blue-600" />
+          <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
             Escolha a cor do pote:
           </h2>
 
@@ -114,8 +114,9 @@ export function Step4Soluble() {
                 ({ src, color, label }, index) => (
                   <button
                     key={index}
-                    className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.lidLabel === label && "scale-125"}`}
+                    className={`w-9 h-9 rounded-full  border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.lidLabel === label && "scale-125"}`}
                     onClick={() => handleSelectlidLabel(label, src, color.name)}
+                    style={{ backgroundColor: color.bg }}
                   ></button>
                 )
               )}

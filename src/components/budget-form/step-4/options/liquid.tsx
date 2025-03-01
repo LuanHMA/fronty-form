@@ -94,7 +94,7 @@ export function Step4Liquid() {
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Drop size={24} weight="bold" className="text-blue-600" />
+          <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
             Escolha a quantidade de líquido:
           </h2>
           <div className="grid grid-cols-3 gap-4">
@@ -176,8 +176,9 @@ export function Step4Liquid() {
               {formData.liquid.lidColors.map(({ src, color, label }, index) => (
                 <button
                   key={index}
-                  className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.modelLabel === label && "scale-125"}`}
+                  className={`w-9 h-9 rounded-full  border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.modelLabel === label && "scale-125"}`}
                   onClick={() => handleSelectModelLabel(label, src, color.name)}
+                  style={{ backgroundColor: color.bg }}
                 ></button>
               ))}
             </div>

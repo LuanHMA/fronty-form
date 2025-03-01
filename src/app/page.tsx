@@ -1,19 +1,12 @@
 "use client";
 
 import { BudgetForm } from "@/components/budget-form";
-import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { InitalForm } from "@/components/initial-form";
-import { Rocket } from "@phosphor-icons/react";
-import { useState } from "react";
 import { useFormContext } from "@/context/form-contenxt";
 
 export default function Home() {
-  const { formState, setFormState } = useFormContext();
-
-  const handleSubmitted = (value: boolean) => {
-    setFormState({ ...formState, formSubmitted: value });
-  };
+  const { formState } = useFormContext();
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-r from-[#E4F2FF] to-[#ffff] grid place-items-center cursor-[url(/cursor.svg),_auto] ">
@@ -21,7 +14,7 @@ export default function Home() {
 
       <div className="min-h-[calc(100vh-80px)] grid place-items-center w-full p-2 sm:p-4">
         {!formState.formSubmitted && formState.step === 0 && (
-          <div className="w-full mx-auto grid place-items-center max-w-7xl space-y-10">
+          <div className="w-full mx-auto grid place-items-center  max-w-7xl space-y-10">
             <div className="flex flex-col items-center gap-2">
               <h1 className="text-2xl font-semibold md:text-4xl text-blue-600">
                 Sistema Interativo e Rápido

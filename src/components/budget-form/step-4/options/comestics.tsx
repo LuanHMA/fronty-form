@@ -87,7 +87,7 @@ export function Step4Comestics() {
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Nut size={24} weight="bold" className="text-blue-600" />
+          <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
             Escolha a cor do pote:
           </h2>
 

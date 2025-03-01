@@ -44,7 +44,7 @@ export const formData = {
               },
               {
                 name: "formula 3",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -64,7 +64,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -84,7 +84,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -104,7 +104,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -124,7 +124,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -144,7 +144,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -164,7 +164,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -184,7 +184,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -204,7 +204,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -224,7 +224,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -244,7 +244,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -264,7 +264,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -284,7 +284,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -304,7 +304,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -324,7 +324,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -344,7 +344,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -364,7 +364,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -384,7 +384,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -404,7 +404,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -424,7 +424,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -444,7 +444,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -464,7 +464,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -491,7 +491,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -512,7 +512,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -533,7 +533,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -554,7 +554,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -580,7 +580,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -600,7 +600,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -620,7 +620,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -640,7 +640,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -660,7 +660,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -680,7 +680,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -700,7 +700,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -720,7 +720,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -740,7 +740,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -766,7 +766,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -786,7 +786,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -806,7 +806,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -826,7 +826,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -846,7 +846,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -866,7 +866,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -886,7 +886,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -906,7 +906,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -926,7 +926,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -953,7 +953,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -965,44 +965,43 @@ export const formData = {
       {
         color: "transparente",
         src: "/capsule/capsules/transparente.png",
-        colorCode: "bg-neutral-200",
+        colorCode: "oklch(0.922 0 0)",
         label: "Cápsula transparente",
       },
       {
         color: "branca",
         src: "/capsule/capsules/branca.png",
-        colorCode: "bg-white",
+        colorCode: "#ffff",
         label: "Cápsula branca",
       },
       {
         color: "preta",
         src: "/capsule/capsules/preta.png",
         label: "Cápsula preta",
-        colorCode: "bg-black",
+        colorCode: "#000",
       },
       {
         color: "vermelha",
         src: "/capsule/capsules/vermelha.png",
-        colorCode: "bg-red-500",
+        colorCode: "oklch(0.577 0.245 27.325)",
         label: "Cápsula vermelha",
       },
       {
         color: "laranja",
         src: "/capsule/capsules/laranja.png",
-        colorCode: "bg-orange-500",
+        colorCode: "oklch(0.646 0.222 41.116)",
         label: "Cápsula laranja",
       },
       {
         color: "roxa",
         src: "/capsule/capsules/roxa.png",
-        colorCode: "bg-purple-600",
+        colorCode: "oklch(0.558 0.288 302.321)",
         label: "Cápsula roxa",
       },
       {
         color: "personalizada",
         src: "/capsule/capsules/transparente.png",
-        colorCode:
-          "bg-gradient-to-b from-red-500 via-yellow-500 via-green-500 via-blue-600 to-purple-500",
+        colorCode:"#ffff",
         label: "Cápsula personalizada",
       },
     ],
@@ -1021,43 +1020,43 @@ export const formData = {
             color: "transparente",
             label: "Transparente",
             src: "/capsule/tampas/flip-top-transparente.png",
-            colorCode: "bg-neutral-200",
+            colorCode: "oklch(0.922 0 0)",
           },
           {
             color: "branca",
             label: "Branca",
             src: "/capsule/tampas/flip-top-branca.png",
-            colorCode: "bg-white",
+            colorCode: "#ffff",
           },
           {
             color: "preta",
             label: "Preta",
             src: "/capsule/tampas/flip-top-preta.png",
-            colorCode: "bg-black",
+            colorCode: "#000",
           },
           {
             color: "azul",
             label: "Azul",
             src: "/capsule/tampas/flip-top-azul.png",
-            colorCode: "bg-blue-600",
+            colorCode: "oklch(0.546 0.245 262.881)",
           },
           {
             color: "vermelha",
             label: "Vermelha",
             src: "/capsule/tampas/flip-top-vermelha.png",
-            colorCode: "bg-red-500",
+            colorCode: "oklch(0.577 0.245 27.325)",
           },
           {
             color: "roxa",
             label: "Roxa",
             src: "/capsule/tampas/flip-top-roxa.png",
-            colorCode: "bg-purple-600",
+            colorCode: "oklch(0.558 0.288 302.321)",
           },
           {
             color: "personalizada",
             label: "Personalizada",
             src: "/capsule/tampas/flip-top-transparente.png",
-            colorCode: "",
+            colorCode: "#ffff",
           },
         ],
         lisa: [
@@ -1065,37 +1064,37 @@ export const formData = {
             color: "branca",
             label: "Branca",
             src: "/capsule/tampas/tampa-branca.png",
-            colorCode: "bg-white",
+            colorCode: "#ffff",
           },
           {
             color: "preta",
             label: "Preta",
             src: "/capsule/tampas/tampa-preta.png",
-            colorCode: "bg-black",
+            colorCode: "#000",
           },
           {
             color: "azul",
             label: "Azul",
             src: "/capsule/tampas/tampa-azul.png",
-            colorCode: "bg-blue-600",
+            colorCode: "oklch(0.546 0.245 262.881)",
           },
           {
             color: "vermelha",
             label: "Vermelha",
             src: "/capsule/tampas/tampa-vermelha.png",
-            colorCode: "bg-red-500",
+            colorCode: "oklch(0.577 0.245 27.325)",
           },
           {
             color: "roxa",
             label: "Roxa",
             src: "/capsule/tampas/tampa-roxa.png",
-            colorCode: "bg-purple-600",
+            colorCode: "oklch(0.558 0.288 302.321)",
           },
           {
             color: "personalizada",
             label: "Personalizada",
             src: "/capsule/tampas/tampa-branca.png",
-            colorCode: "",
+            colorCode: "#ffff",
           },
         ],
       },
@@ -1124,22 +1123,22 @@ export const formData = {
             color: "preta",
             src: "/capsule/potes/r80-preto.png",
             label: "Preta",
-            colorCode: "bg-black",
+            colorCode: "#000",
           },
           {
             color: "transparente",
             src: "/capsule/potes/r80-branco.png",
-            colorCode: "bg-neutral-200",
+            colorCode: "oklch(0.922 0 0)",
           },
           {
             color: "branca",
             src: "/capsule/potes/r80-branco.png",
-            colorCode: "bg-white",
+            colorCode: "#ffff",
           },
           {
             color: "personalizada",
             src: "/capsule/potes/r80-branco.png",
-            colorCode: "",
+            colorCode: "#ffff",
           },
         ],
         R170: [
@@ -1147,23 +1146,23 @@ export const formData = {
             color: "preta",
             src: "/capsule/potes/r170-preto.png",
             label: "Preta",
-            colorCode: "bg-black",
+            colorCode: "#000",
           },
           {
             color: "branca",
             src: "/capsule/potes/r170-branco.png",
-            colorCode: "bg-white",
+            colorCode: "#fff",
           },
           {
             color: "transparente",
             src: "/capsule/potes/r170-branco.png",
-            colorCode: "bg-neutral-200",
+            colorCode: "oklch(0.922 0 0)",
           },
 
           {
             color: "personalizada",
             src: "/capsule/potes/r170-branco.png",
-            colorCode: "",
+            colorCode: "#fff",
           },
         ],
         T100: [
@@ -1171,22 +1170,22 @@ export const formData = {
             color: "preta",
             src: "/capsule/potes/t100-preto.png",
             label: "Preta",
-            colorCode: "bg-black",
+            colorCode: "#000",
           },
           {
             color: "transparente",
             src: "/capsule/potes/t100-branco.png",
-            colorCode: "bg-neutral-200",
+            colorCode: "oklch(0.922 0 0)",
           },
           {
             color: "branca",
             src: "/capsule/potes/t100-branco.png",
-            colorCode: "bg-white",
+            colorCode: "#fff",
           },
           {
             color: "personalizada",
             src: "/capsule/potes/t100-branco.png",
-            colorCode: "",
+            colorCode: "#fff",
           },
         ],
       },
@@ -1223,7 +1222,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1243,7 +1242,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1263,7 +1262,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1283,7 +1282,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1303,7 +1302,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1323,7 +1322,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1343,7 +1342,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1373,7 +1372,7 @@ export const formData = {
         label: "Pote PEAD Branco",
         src: "/soluble/pote-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branca",
         },
       },
@@ -1381,7 +1380,7 @@ export const formData = {
         label: "Pote PEAD Preto",
         src: "/soluble/pote-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
       },
@@ -1410,7 +1409,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1430,7 +1429,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1450,7 +1449,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1470,7 +1469,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1490,7 +1489,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1510,7 +1509,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1530,7 +1529,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1550,7 +1549,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1570,7 +1569,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1590,7 +1589,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1610,7 +1609,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1630,7 +1629,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1650,7 +1649,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1670,7 +1669,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1690,7 +1689,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1710,7 +1709,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1730,7 +1729,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1750,7 +1749,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1770,7 +1769,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1790,7 +1789,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1810,7 +1809,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1830,7 +1829,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1857,7 +1856,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1878,7 +1877,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1899,7 +1898,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1920,7 +1919,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1946,7 +1945,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1966,7 +1965,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -1986,7 +1985,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2006,7 +2005,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2026,7 +2025,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2046,7 +2045,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2066,7 +2065,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2086,7 +2085,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2106,7 +2105,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2132,7 +2131,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2152,7 +2151,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2172,7 +2171,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2192,7 +2191,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2212,7 +2211,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2232,7 +2231,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2252,7 +2251,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2272,7 +2271,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2292,7 +2291,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2319,7 +2318,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2350,7 +2349,7 @@ export const formData = {
         label: "Frasco Âmbar c/Tampa Branca",
         src: "/liquid/frasco-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "preta",
         },
       },
@@ -2358,7 +2357,7 @@ export const formData = {
         label: "Frasco Âmbar c/Tampa Preta",
         src: "/liquid/frasco-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "branca",
         },
       },
@@ -2387,7 +2386,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2407,7 +2406,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2427,7 +2426,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2447,7 +2446,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2467,7 +2466,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2487,7 +2486,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2507,7 +2506,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2533,7 +2532,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2553,7 +2552,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2573,7 +2572,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2593,7 +2592,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2613,7 +2612,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2633,7 +2632,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2659,7 +2658,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2679,7 +2678,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2699,7 +2698,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2719,7 +2718,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2745,7 +2744,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2765,7 +2764,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2785,7 +2784,7 @@ export const formData = {
               },
               {
                 name: "Personalizado",
-                label: "Personalizado",
+                label: "Fórmula 3",
                 src: "/capsule/capsules/vermelha.png",
               },
             ],
@@ -2893,7 +2892,7 @@ export const formData = {
         label: "Pote PEAD Branco",
         src: "/comestics/pote-1-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branco",
         },
         references: ["Shampoo", "Condicionador", "Cremes"],
@@ -2902,7 +2901,7 @@ export const formData = {
         label: "Pote PEAD Preto",
         src: "/comestics/pote-1-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
         references: ["Shampoo", "Condicionador", "Cremes"],
@@ -2911,7 +2910,7 @@ export const formData = {
         label: "Pote PEAD 2 Branco",
         src: "/comestics/pote-2-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branco",
         },
         references: [
@@ -2926,7 +2925,7 @@ export const formData = {
         label: "Pote PEAD 2 Preto",
         src: "/comestics/pote-2-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
         references: [
@@ -2941,7 +2940,7 @@ export const formData = {
         label: "Frasco Branco 1",
         src: "/comestics/frasco-1-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branco",
         },
         references: ["Tônico"],
@@ -2950,7 +2949,7 @@ export const formData = {
         label: "Frasco Preto 1",
         src: "/comestics/frasco-1-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
         references: ["Tônico"],
@@ -2959,7 +2958,7 @@ export const formData = {
         label: "Frasco Branco 2",
         src: "/comestics/frasco-2-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branco",
         },
         references: ["Finalizador"],
@@ -2968,7 +2967,7 @@ export const formData = {
         label: "Frasco Preto 2",
         src: "/comestics/frasco-2-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
         references: ["Finalizador"],
@@ -2977,7 +2976,7 @@ export const formData = {
         label: "Creme 1 Branco",
         src: "/comestics/creme-1-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branco",
         },
         references: ["Creme Anti Manchas", "Creme Anti Acne"],
@@ -2986,7 +2985,7 @@ export const formData = {
         label: "Creme 1 Preto",
         src: "/comestics/creme-1-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
         references: ["Creme Anti Manchas", "Creme Anti Acne"],
@@ -2995,7 +2994,7 @@ export const formData = {
         label: "Creme 2 Branco",
         src: "/comestics/creme-2-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branco",
         },
         references: ["Creme Clareador"],
@@ -3004,7 +3003,7 @@ export const formData = {
         label: "Creme 2 Preto",
         src: "/comestics/creme-2-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
         references: ["Creme Clareador"],
@@ -3013,7 +3012,7 @@ export const formData = {
         label: "Frasco 3 Branco",
         src: "/comestics/frasco-3-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branco",
         },
         references: ["Sérum Facial"],
@@ -3022,7 +3021,7 @@ export const formData = {
         label: "Frasco 3 Preto",
         src: "/comestics/frasco-3-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
         references: ["Sérum Facial"],
@@ -3031,7 +3030,7 @@ export const formData = {
         label: "Bisnaga 2 Branco",
         src: "/comestics/bisnaga-2-branco.png",
         color: {
-          bg: "bg-white",
+          bg: "#ffff",
           name: "branco",
         },
         references: ["Gel Peniano"],
@@ -3040,7 +3039,7 @@ export const formData = {
         label: "Bisnaga 2 Preto",
         src: "/comestics/bisnaga-2-preto.png",
         color: {
-          bg: "bg-black",
+          bg: "#000",
           name: "preto",
         },
         references: ["Gel Peniano"],

@@ -70,13 +70,14 @@ export function InitalForm() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-4 w-full p-4 max-w-2xl">
-       <h3 className="text-2xl font-bold text-blue-600 sm:text-3xl">Meu Projeto</h3>
+    <div className="flex flex-col items-center gap-4 w-full max-w-3xl p-4">
+      <h3 className="text-2xl font-bold text-blue-600 sm:text-3xl">
+        Meu Projeto
+      </h3>
       <form
-        className="bg-white rounded-lg border border-neutral-200 p-4 sm:p-6 flex flex-col items-center gap-6"
+        className="bg-white w-full rounded-lg border border-neutral-200 p-4 sm:p-6 flex flex-col items-center gap-6"
         onSubmit={handleSubmit(handleSubmitForm)}
       >
-       
         <div className=" flex items-start gap-2 sm:items-center">
           <CheckSquareOffset
             size={20}

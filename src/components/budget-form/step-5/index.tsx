@@ -136,7 +136,7 @@ export function Step5Capsule() {
         {/* Capsula */}
         <div className="space-y-6">
           <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-            <Nut size={24} weight="bold" className="text-blue-600" />
+          <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
             Escolha o modelo e cor do pote e da tampa
           </h2>
 
@@ -192,8 +192,9 @@ export function Step5Capsule() {
                     return (
                       <button
                         key={index}
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200 ${colorCode} cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
+                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
                         onClick={() => handleSelectLid(color, src)}
+                        style={{ backgroundColor: colorCode }}
                       >
                         {color === "personalizada" && <CircleHalf size={20} />}
                       </button>
@@ -253,7 +254,8 @@ export function Step5Capsule() {
                   {potColors.map(({ color, src, colorCode }) => {
                     return (
                       <button
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200 ${colorCode} cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
+                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
+                        style={{ backgroundColor: colorCode }}
                         onClick={() => handleSelectPot(color, src)}
                       >
                         {color === "personalizada" && <CircleHalf size={20} />}
