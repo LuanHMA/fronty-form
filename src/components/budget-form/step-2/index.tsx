@@ -68,19 +68,19 @@ export function Step2() {
 
   return (
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
-      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6">
-        <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-        <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
+      <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6 pb-24">
+        <h2 className="text-base sm:text-xl font-medium flex items-start gap-2 sm:items-center">
+        <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" className="mt-1 sm:mt-0"/>
           Escolha o nicho de atuação do seu Produto
         </h2>
         <div className="grid grid-cols-1 gap-4 space-y-4">
           {data.map(({ category, Icon, options }, index) => {
             return (
               <div
-                className={`space-y-6 ${index === data.length - 1 ? "border-0 pb-0" : "border-b pb-6"}`}
+                className={`space-y-4 ${index === data.length - 1 ? "border-0 pb-0" : "border-b pb-6"}`}
                 key={index}
               >
-                <h2 className="flex items-center gap-2 text-base sm:text-lg font-semibold text-blue-600">
+                <h2 className="flex items-center gap-2 text-base sm:text-lg font-bold text-blue-800">
                   {category}
                 </h2>
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
@@ -92,7 +92,7 @@ export function Step2() {
                     return (
                       <label
                         htmlFor={name + category}
-                        className={`p-4 gap-2 flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer hover:shadow-blue-600  transition-all ${isSelected ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
+                        className={`p-4 gap-2 flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer hover:shadow-blue-600 transition-all ${isSelected ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
                         key={index}
                       >
                         <input
@@ -112,7 +112,7 @@ export function Step2() {
                         />
                         <Icon size={24} weight="duotone" />
                         <div className="flex flex-col items-center gap-1">
-                          <span className="text-center text-base font-semibold">
+                          <span className="text-center text-sm sm:text-base font-semibold">
                             {name}
                           </span>
 
@@ -134,11 +134,11 @@ export function Step2() {
         </div>
       </div>
 
-      <div className="w-full flex justify-end">
+      <div className="w-full flex justify-end fixed z-[100] bottom-10 right-10 sm:bottom-14">
         <button
           type="submit"
           disabled={selected === null}
-          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-fronty-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
+          className="bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-fronty-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
         >
           Próximo
           <ArrowRight size={20} />

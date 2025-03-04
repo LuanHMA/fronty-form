@@ -241,16 +241,16 @@ export function BudgetForm() {
         <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
-            <h2 className="text-base font-medium sm:text-lg">
+            <h2 className="text-sm font-medium sm:text-lg">
               Tipo de produto selecionado:
-              <span className="font-semibold text-blue-600 capitalize ml-2">
+              <span className="font-semibold text-blue-800 capitalize ml-2 ">
                 {formState.productType}
               </span>
             </h2>
           </div>
           <button
             onClick={() => handleChangeStep(1)}
-            className="flex items-center gap-1 text-neutral-700 group group"
+            className="flex items-center gap-1 text-neutral-700 group text-sm sm:text-base"
           >
             <ArrowCounterClockwise
               size={18}
@@ -265,13 +265,13 @@ export function BudgetForm() {
         <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
-            <h2 className="text-base font-medium sm:text-lg">
+            <h2 className="font-medium text-sm sm:text-lg">
               Nicho selecionado!
             </h2>
           </div>
           <button
             onClick={() => handleChangeStep(2)}
-            className="flex items-center gap-1 text-neutral-700 group"
+            className="flex items-center gap-1 text-neutral-700 group text-sm sm:text-base"
           >
             <ArrowCounterClockwise
               size={18}
@@ -286,14 +286,14 @@ export function BudgetForm() {
         <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
           <div className="flex items-start gap-2 sm:items-center">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
-            <h2 className="text-base font-medium sm:text-lg">
+            <h2 className="font-medium text-sm sm:text-lg">
               Fórmula selecionada!
             </h2>
           </div>
 
           <button
             onClick={() => handleChangeStep(3)}
-            className="flex items-center gap-1 text-neutral-700 group"
+            className="flex items-center gap-1 text-neutral-700 group text-sm sm:text-base"
           >
             <ArrowCounterClockwise
               size={18}
@@ -306,13 +306,13 @@ export function BudgetForm() {
 
       {formState.step > 4 && formState.productType != "encapsulado" && (
         <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
-          <h2 className="text-base font-medium sm:text-lg flex items-center gap-2 flex-wrap">
+          <h2 className="text-sm font-medium sm:text-lg flex items-center gap-2 flex-wrap">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             <span>Personalização selecionada!</span>
           </h2>
           <button
             onClick={() => handleChangeStep(4)}
-            className="flex items-center gap-1 text-neutral-700 group"
+            className="flex items-center gap-1 text-neutral-700 group text-sm sm:text-base"
           >
             <ArrowCounterClockwise
               size={18}
@@ -325,13 +325,13 @@ export function BudgetForm() {
 
       {formState.step > 4 && formState.productType === "encapsulado" && (
         <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
-          <h2 className="text-base font-medium sm:text-lg flex items-center gap-2">
+          <h2 className="text-sm font-medium sm:text-lg flex items-center gap-2">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             Personalização selecionada!
           </h2>
           <button
             onClick={() => handleChangeStep(4)}
-            className="flex items-center gap-1 text-neutral-700 group"
+            className="flex items-center gap-1 text-neutral-700 group text-sm sm:text-base"
           >
             <ArrowCounterClockwise
               size={18}
@@ -344,13 +344,13 @@ export function BudgetForm() {
 
       {formState.productType === "encapsulado" && formState.step > 5 && (
         <div className="bg-white rounded-lg border border-neutral-200 p-4 space-y-1">
-          <h2 className="text-base font-medium sm:text-lg inline-flex items-center gap-2">
+          <h2 className="text-sm font-medium sm:text-lg inline-flex items-center gap-2">
             <CheckCircle size={22} className="text-green-500" weight="fill" />
             Tampa, Pote e Quantidade selecionadas!
           </h2>
           <button
             onClick={() => handleChangeStep(5)}
-            className="flex items-center gap-1 text-neutral-700 group"
+            className="flex items-center gap-1 text-neutral-700 group text-sm sm:text-base"
           >
             <ArrowCounterClockwise
               size={18}

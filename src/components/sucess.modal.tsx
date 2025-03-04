@@ -23,10 +23,10 @@ export function SuccessModal({
           </Dialog.Title>
           <Dialog.Description className="mt-8 flex flex-col gap-10 text-center">
             <div className="flex flex-col gap-3 text-center">
-              <h2 className="text-center text-2xl font-bold text-neutral-800">
+              <h2 className="text-center text-xl sm:text-2xl font-bold text-neutral-800">
                 Orçamento enviado com sucesso!
               </h2>
-              <p className="text-center text-base text-neutral-600 ">
+              <p className="text-center text-sm sm:text-base text-neutral-600 ">
                 Agradecemos seu contato! Um de nossos representantes entrará em
                 contato em breve.
               </p>

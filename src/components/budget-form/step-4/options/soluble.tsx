@@ -96,7 +96,7 @@ export function Step4Soluble() {
       {/* Cor do pote */}
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
+          <h2 className="text-base sm:text-xl font-medium flex items-center gap-2">
           <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
             Escolha a cor do pote:
           </h2>
@@ -104,7 +104,7 @@ export function Step4Soluble() {
           <div className="grid grid-cols-1 place-items-center gap-6">
             <div className="flex flex-col items-center gap-4">
               <img src={selected.lidSrc} alt="capsula" className="w-72" />
-              <span className="text-base capitalize font-semibold ml-6 sm:text-lg">
+              <span className="text-sm capitalize font-semibold ml-6 sm:text-lg">
                 {selected.lidLabel}
               </span>
             </div>
@@ -128,11 +128,11 @@ export function Step4Soluble() {
       {/* Quantidade de liquido */}
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
+          <h2 className="text-base sm:text-xl font-medium flex items-center gap-2">
             <Pill size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade do pote:
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {formData.solubles.qtd.options.map(({ label, value }, index) => (
               <label
                 key={index}
@@ -148,7 +148,7 @@ export function Step4Soluble() {
                 />
 
                 <div className="flex items-center gap-1">
-                  <span className=" font-semibold text-center text-base sm:text-lg">
+                  <span className="font-semibold text-center text-sm sm:text-base">
                     {label}
                   </span>
                 </div>
@@ -161,11 +161,11 @@ export function Step4Soluble() {
       {/* Sabor */}
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
+          <h2 className="text-base sm:text-xl font-medium flex items-center gap-2">
             <Drop size={24} weight="bold" className="text-blue-600" />
             Escolha o sabor:
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
             {formData.solubles.flavors.map(({ label, name }, index) => (
               <label
                 key={index}
@@ -181,7 +181,7 @@ export function Step4Soluble() {
                 />
 
                 <div className="flex items-center gap-1">
-                  <span className=" font-semibold text-center text-base">
+                  <span className=" font-semibold text-center text-sm sm:text-base">
                     {label}
                   </span>
                 </div>
@@ -194,11 +194,11 @@ export function Step4Soluble() {
       {/* Quantidade total */}
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
+          <h2 className="text-base sm:text-xl font-medium flex items-start sm:items-center gap-2">
             <Nut size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade que deseja orçar:
           </h2>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid  gap-4 grid-cols-2 lg:grid-cols-4">
             {formData.solubles.totQtd.map((qtd, index) => (
               <label
                 key={index}
@@ -214,7 +214,7 @@ export function Step4Soluble() {
                 />
 
                 <div className="flex items-center gap-1">
-                  <span className=" font-semibold text-center text-base sm:text-lg">
+                  <span className=" font-semibold text-center text-sm sm:text-lg">
                     {qtd === "all" ? "Todas opções" : qtd + " unidades"}
                   </span>
                 </div>
@@ -222,7 +222,7 @@ export function Step4Soluble() {
             ))}
           </div>
 
-          <p className="text-sm text-neutral-600">
+          <p className="text-xs text-neutral-600 sm:text-sm">
             *Escolha a Quantidade que deseja Orçar, Caso queira saber o valores
             de todos os planos selecione a opçao todas opções
           </p>

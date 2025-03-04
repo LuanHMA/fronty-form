@@ -39,8 +39,8 @@ export function Step3() {
   return (
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6">
-        <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2 ">
-        <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
+        <h2 className="text-base sm:text-xl font-medium flex items-start gap-2 sm:items-center">
+        <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" className="mt-1 sm:mt-0"/>
           Escolha a fórmula que você deseja no seu produto:
         </h2>
 

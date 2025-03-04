@@ -52,7 +52,7 @@ export function Step4Capsule() {
     <div className="space-y-4 py-4">
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
+          <h2 className="text-base sm:text-xl font-medium flex items-center gap-2">
             <img
               src="/fronty-icon.png"
               width={20}
@@ -61,7 +61,7 @@ export function Step4Capsule() {
             />
             Escolha a quantidade de capsulas:
           </h2>
-          <div className="grid-cols-1 grid sm:grid-cols-3 gap-4">
+          <div className="grid-cols-2 grid sm:grid-cols-3 gap-4">
             {formData.capsules.qtd.options.map(({ label, value }, index) => (
               <label
                 key={index}
@@ -81,14 +81,14 @@ export function Step4Capsule() {
                 />
 
                 <div className="flex items-center gap-1">
-                  <span className=" font-semibold text-center text-base sm:text-lg">
+                  <span className="font-semibold text-center text-sm sm:text-lg">
                     {label}
                   </span>
                 </div>
               </label>
             ))}
           </div>
-          <p className="text-sm text-neutral-600 font-medium">
+          <p className="text-xs text-neutral-600 font-medium">
             *Caso deseje orçamento com 30 e 60 cápsulas, marque o campo "DUAS
             OPÇÕES"
           </p>
@@ -107,24 +107,24 @@ export function Step4Capsule() {
             <div className="grid grid-cols-1 place-items-center gap-6">
               <div className="flex flex-col items-center gap-4">
                 <img src={selected.capsuleSrc} alt="capsula" className="w-72" />
-                <span className="text-base capitalize font-semibold ml-6 sm:text-lg">
+                <span className="text-sm capitalize font-semibold ml-6 sm:text-lg">
                   {selected.capsuleColor}
                 </span>
               </div>
 
-              <div className="flex items-center flex-wrap justify-center gap-4">
+              <div className="flex items-center  justify-center gap-4">
                 {formData.capsules.colors.map(
                   ({ src, color, colorCode, label }, index) => {
                     return (
                       <button
                         key={index}
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${
+                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${
                           selected.capsuleColor === color && "scale-125"
                         } }`}
                         onClick={() => handleSelectCapsule(color, src, label)}
                         style={{ backgroundColor:  colorCode }}
                       >
-                        {color === "personalizada" && <CircleHalf size={20} />}
+                        {color === "personalizada" && <CircleHalf size={20} className="relative -top-1 -left-1"/>}
                       </button>
                     );
                   }

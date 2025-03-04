@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import { FormProvider } from "@/context/form-contenxt";
 import { SidebarProvider } from "@/context/sidebar";
 import { AuthProvider } from "@/context/auth/provider";
+import { Header } from "@/components/header";
 
 const inter = Inter({
   variable: "--font-geist-sans",
@@ -23,10 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${inter.className} antialiased text-black`}>
+      <body className={`${inter.className} antialiased bg-gradient-to-r from-[#E4F2FF] to-[#ffff] text-black`}>
         <AuthProvider>
           <FormProvider>
-            <SidebarProvider>{children}</SidebarProvider>
+            <SidebarProvider>
+                <Header/>
+                {children}
+            </SidebarProvider>
           </FormProvider>
         </AuthProvider>
       </body>

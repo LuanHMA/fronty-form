@@ -71,7 +71,7 @@ export function InitalForm() {
 
   return (
     <div className="flex flex-col items-center gap-4 w-full max-w-3xl p-4">
-      <h3 className="text-2xl font-bold text-blue-600 sm:text-3xl">
+      <h3 className="text-xl font-bold text-blue-800 sm:text-2xl md:text-3xl">
         Meu Projeto
       </h3>
       <form
@@ -93,13 +93,13 @@ export function InitalForm() {
           <div className="w-full flex flex-col sm:flex-row items-center gap-4">
             <fieldset className="flex flex-col gap-1 items-start w-full">
               <label
-                className="text-base font-semibold text-blue-600"
+                className="text-sm sm:text-base font-semibold text-blue-600"
                 htmlFor="name"
               >
                 Nome
               </label>
               <input
-                className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-600"
+                className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-600 text-sm sm:text-base "
                 type="text"
                 placeholder="Digite seu nome completo"
                 id="name"
@@ -114,13 +114,13 @@ export function InitalForm() {
 
             <fieldset className="flex flex-col gap-1 items-start w-full">
               <label
-                className="text-base font-semibold text-blue-600"
+                className="text-sm sm:text-base  font-semibold text-blue-600"
                 htmlFor="phone"
               >
                 Telefone
               </label>
               <input
-                className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-600"
+                className="border rounded-lg text-black border-neutral-200 w-full p-3 outline-none focus:ring-2 focus:ring-blue-600 text-sm sm:text-base "
                 type="text"
                 placeholder="(00) 0000-0000"
                 id="phone"
@@ -137,7 +137,7 @@ export function InitalForm() {
             </fieldset>
           </div>
           <button
-            className="w-full bg-gradient-to-r from-[#1e12ce] to-[#0083fb] text-white p-3 rounded-lg col-span-2 max-w-xs mx-auto hover:shadow-[0px_10px_25px_0px_#0083fb] transition-all disabled:pointer-events-none disabled:opacity-50 ease duration-300 text-lg"
+            className="w-full bg-gradient-to-r from-[#1e12ce] to-[#0083fb] text-white p-3 rounded-lg col-span-2 max-w-xs mx-auto hover:shadow-[0px_10px_25px_0px_#0083fb] transition-all disabled:pointer-events-none disabled:opacity-50 ease duration-300 text-base sm:text-lg"
             disabled={isSubmitting}
           >
             {isSubmitting ? "Iniciando..." : "Iniciar projeto"}

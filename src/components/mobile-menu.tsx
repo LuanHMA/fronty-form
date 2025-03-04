@@ -38,7 +38,7 @@ export function MobileMenu() {
       <div
         className={`${
           menuIsOpen ? "right-0 w-8/12" : "-right-[100%] w-0"
-        } ease-in-out duration-500 transition-all fixed top-0 right-0 h-screen border-l border-l-neutral-100 bg-neutral-0  z-50`}
+        } ease-in-out duration-500 transition-all fixed top-0  h-screen border-l border-l-neutral-100 bg-neutral-0  z-50`}
       >
         <div
           className={`space-y-4  ${

@@ -30,12 +30,12 @@ export function Step1() {
   return (
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4">
-        <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2 text-blue-600">
+        <h2 className="text-base sm:text-xl font-medium flex items-center gap-2 text-neutral-900">
           <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
           Escolha o tipo de produto
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-10">
           {formData.productTypes.map(({ label, name, src }, index) => {
             return (
               <label
@@ -48,7 +48,7 @@ export function Step1() {
                   alt={label}
                   width={256}
                   height={256}
-                  className="w-44 sm:w-full max-w-64"
+                  className="w-28 sm:w-full max-w-64"
                 />
 
                 <input
@@ -60,7 +60,7 @@ export function Step1() {
                   {...register("productType")}
                 />
                 <h2
-                  className={`text-base font-medium text-neutral-800 sm:text-lg ${selected === name ? "text-white" : "text-neutral-800"}`}
+                  className={`text-sm font-medium text-neutral-800 sm:text-lg ${selected === name ? "text-white" : "text-neutral-800"}`}
                 >
                   {label}
                 </h2>

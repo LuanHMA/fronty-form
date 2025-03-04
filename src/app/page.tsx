@@ -9,18 +9,17 @@ export default function Home() {
   const { formState } = useFormContext();
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-r from-[#E4F2FF] to-[#ffff] grid place-items-center cursor-[url(/cursor.svg),_auto] ">
-      <Header />
+    <div className="w-full grid place-items-start pt-4 sm:pt-10 cursor-[url(/cursor.svg),_auto]">
 
-      <div className="min-h-[calc(100vh-80px)] grid place-items-center w-full p-2 sm:p-4">
+      <div className="grid place-items-start w-full p-2 sm:p-4">
         {!formState.formSubmitted && formState.step === 0 && (
-          <div className="w-full mx-auto grid place-items-center  max-w-7xl space-y-10">
-            <div className="flex flex-col items-center gap-2">
-              <h1 className="text-2xl font-semibold md:text-4xl text-blue-600">
+          <div className="w-full mx-auto grid place-items-center max-w-7xl space-y-4 sm:space-y-10">
+            <div className="flex flex-col items-center">
+              <h1 className="text-2xl text-center font-bold md:text-4xl text-blue-800">
                 Sistema Interativo e Rápido
               </h1>
               <div className={`flex items-start gap-2`}>
-                <h2 className="text-lg text-center font-semibold sm:text-2xl text-neutral-700 capitalize">
+                <h2 className="text-base text-center font-semibold sm:text-2xl text-neutral-700 capitalize">
                   Crie seu produto em poucos passos!
                 </h2>
               </div>
@@ -30,13 +29,13 @@ export default function Home() {
         )}
 
         {formState.formSubmitted && (
-          <div className="w-full mx-auto grid place-items-center max-w-7xl space-y-10">
+          <div className="w-full mx-auto grid place-items-center max-w-7xl space-y-4 sm:space-y-10 mb-10">
             <div className="flex flex-col items-center gap-2">
-              <h1 className="text-2xl font-bold md:text-4xl text-blue-600">
+              <h1 className="text-2xl font-bold md:text-4xl text-blue-800">
                 Meu Projeto
               </h1>
               <div className={`flex items-start gap-2`}>
-                <h2 className="text-lg text-center font-semibold  text-neutral-700 capitalize">
+                <h2 className="text-base text-center font-semibold  text-neutral-700 capitalize">
                   Personalize seu produto conforme suas preferências!
                 </h2>
               </div>

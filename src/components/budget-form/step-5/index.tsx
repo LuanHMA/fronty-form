@@ -135,8 +135,8 @@ export function Step5Capsule() {
       <div className="border border-neutral-200 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
         {/* Capsula */}
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-          <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
+          <h2 className="text-base sm:text-xl font-medium flex items-start sm:items-center gap-2">
+          <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" className="mt-1 sm:mt-0"/>
             Escolha o modelo e cor do pote e da tampa
           </h2>
 
@@ -165,7 +165,7 @@ export function Step5Capsule() {
                         />
                       </label>
 
-                      <span className="text-center w-full text-xs">
+                      <span className="text-center w-full text-sm sm:text-base">
                         {label}
                       </span>
                     </div>
@@ -181,7 +181,7 @@ export function Step5Capsule() {
                     alt="capsula"
                     className="w-72 h-72 object-contain bg-neutral-100 rounded-lg p-3"
                   />
-                  <span className="text-base capitalize font-semibold ml-6 sm:text-lg">
+                  <span className="text-sm capitalize font-semibold ml-6 sm:text-lg">
                     Tampa {selected.lidColor}
                   </span>
                 </div>
@@ -192,11 +192,11 @@ export function Step5Capsule() {
                     return (
                       <button
                         key={index}
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
+                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
                         onClick={() => handleSelectLid(color, src)}
                         style={{ backgroundColor: colorCode }}
                       >
-                        {color === "personalizada" && <CircleHalf size={20} />}
+                        {color === "personalizada" && <CircleHalf size={20} className="relative -left-1 -top-1"/>}
                       </button>
                     );
                   })}
@@ -229,7 +229,7 @@ export function Step5Capsule() {
                           onClick={() => handleSelectPotModel(name)}
                         />
                       </label>
-                      <span className="text-center w-full text-xs">
+                      <span className="text-center w-full text-sm sm:text-base">
                         {label}
                       </span>
                     </div>
@@ -254,11 +254,11 @@ export function Step5Capsule() {
                   {potColors.map(({ color, src, colorCode }) => {
                     return (
                       <button
-                        className={`w-9 h-9 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
+                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
                         style={{ backgroundColor: colorCode }}
                         onClick={() => handleSelectPot(color, src)}
                       >
-                        {color === "personalizada" && <CircleHalf size={20} />}
+                        {color === "personalizada" && <CircleHalf size={20} className="relative -left-1 -top-1"/>}
                       </button>
                     );
                   })}
@@ -266,20 +266,18 @@ export function Step5Capsule() {
               </div>
             </div>
 
-
             {/* Resumo */}
-            <div className="flex flex-col justify-center items-center mb-20 gap-8 sm:col-span-2 lg:col-span-1">
-              <div className=" h-[94px] flex justify-center items-center">
-                <h2 className="text-lg font-semibold text-blue-600  border rounded-lg border-neutral-200 py-5 px-4">Pre-visualização:</h2>
+            <div className="flex flex-col justify-center items-center gap-8 sm:col-span-2 lg:col-span-1">
+              <div className="sm:h-[94px] flex justify-center items-center">
+                <h2 className="text-base font-semibold text-blue-600  border rounded-lg border-neutral-200 py-5 px-4">Pre-visualização:</h2>
               </div>
 
-              <div className="h-[416px]">
+              <div className="lg:h-[416px]">
                 <img
                   src={selectedCombinatation}
                   alt="Modelo selecionado"
                   className="bg-neutral-100 rounded-lg w-72"
                 />
-
               </div>
             </div>
           </div>
@@ -289,7 +287,7 @@ export function Step5Capsule() {
       <div className="border border-neutral-200 rounded-xl px-6 pt-6 pb-10 bg-white space-y-4 divide-y-2 divide-neutral-100">
         {/* Capsula */}
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
+          <h2 className="text-base sm:text-xl font-medium flex items-start sm:items-center gap-2">
             <Nut size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade que deseja orçar:
           </h2>
@@ -310,7 +308,7 @@ export function Step5Capsule() {
                 />
 
                 <div className="flex items-center gap-1">
-                  <span className=" font-semibold text-center text-base sm:text-lg">
+                  <span className=" font-semibold text-center text-sm sm:text-lg">
                     {qtd === "all" ? "Todas opções" : qtd + " unidades"}
                   </span>
                 </div>

@@ -13,6 +13,8 @@ export function Step4Comestics() {
     item.references.includes(formState.niche.name)
   );
 
+  console.log(modelColor)
+
   const modelQtd = formData.comestics.qtd.filter((item) =>
     item.references.includes(formState.niche.name)
   )[0].options;
@@ -86,15 +88,15 @@ export function Step4Comestics() {
       {/* Cor do pote */}
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
-          <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" />
+          <h2 className="text-base sm:text-xl font-medium flex items-start gap-2 sm:items-center">
+          <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" className="mt-1 sm:mt-0"/>
             Escolha a cor do pote:
           </h2>
 
           <div className="grid grid-cols-1 place-items-center gap-6">
             <div className="flex flex-col items-center gap-4">
-              <img src={selected.modelSrc} alt="capsula" className="w-72" />
-              <span className="text-base capitalize font-semibold ml-6 sm:text-lg">
+              <img src={selected.modelSrc} alt="capsula" className="w-40 sm:w-72" />
+              <span className="text-sm capitalize font-semibold ml-6 sm:text-lg">
                 {selected.modelLabel}
               </span>
             </div>
@@ -103,8 +105,9 @@ export function Step4Comestics() {
               {modelColor.map(({ src, color, label }, index) => (
                 <button
                   key={index}
-                  className={`w-9 h-9 rounded-full ${color.bg} border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.modelLabel === label && "scale-125"}`}
+                  className={`w-8 h-8 rounded-full border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.modelLabel === label && "scale-125"}`}
                   onClick={() => handleSelectmodelLabel(label, src, color.name)}
+                  style={{ backgroundColor: color.bg }}
                 ></button>
               ))}
             </div>
@@ -115,11 +118,11 @@ export function Step4Comestics() {
       {/* Quantidade de liquido */}
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
+          <h2 className="text-base sm:text-xl font-medium flex items-start gap-2 sm:items-center">
             <Pill size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade do pote:
           </h2>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
             {modelQtd.map(({ label, value }, index) => (
               <label
                 key={index}
@@ -135,7 +138,7 @@ export function Step4Comestics() {
                 />
 
                 <div className="flex items-center gap-1">
-                  <span className=" font-semibold text-center text-base sm:text-lg">
+                  <span className=" font-semibold text-center text-sm sm:text-lg">
                     {label}
                   </span>
                 </div>
@@ -148,7 +151,7 @@ export function Step4Comestics() {
       {/* Quantidade total */}
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-4 divide-y-2 divide-neutral-100">
         <div className="space-y-6">
-          <h2 className="text-lg sm:text-xl font-medium flex items-center gap-2">
+          <h2 className="text-base sm:text-xl font-medium flex items-start gap-2 sm:items-center">
             <Nut size={24} weight="bold" className="text-blue-600" />
             Escolha a quantidade que deseja orçar:
           </h2>
@@ -168,7 +171,7 @@ export function Step4Comestics() {
                 />
 
                 <div className="flex items-center gap-1">
-                  <span className=" font-semibold text-center text-base sm:text-lg">
+                  <span className=" font-semibold text-center text-sm sm:text-lg">
                     {qtd === "all" ? "Todas opções" : qtd + " unidades"}
                   </span>
                 </div>
