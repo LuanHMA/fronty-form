@@ -44,7 +44,7 @@ export function Step3() {
           Escolha a fórmula que você deseja no seu produto:
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {formState.niche.receips.map(({ src, name, label }, index) => {
             return (
               <label
@@ -62,7 +62,7 @@ export function Step3() {
                 <img
                   src={src}
                   alt={name}
-                  className="w-44 sm:w-11/12 max-w-64"
+                  className="w-full h-full object-contain"
                 />
                 <input
                   type="radio"
