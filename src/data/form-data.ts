@@ -491,12 +491,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/diuretico-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -511,12 +506,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/queima-gordura-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/queima-gordura-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/queima-gordura-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -531,12 +531,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/controle-apetite-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1506,17 +1501,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/dores-articulares-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/dores-articulares-2.jpg",
               },
              {
                 name: "Personalizado",
                 label: "Personalizada",
-                src: "/capsule/capsules/vermelha.png",
+                src: "/receips/dores-articulares-3.jpg",
               },
             ],
           },
@@ -1823,12 +1818,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/diuretico-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1843,12 +1833,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/queima-gordura-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/queima-gordura-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/queima-gordura-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -1863,12 +1858,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/controle-apetite-1.jpg",
               },
              {
                 name: "Personalizado",
