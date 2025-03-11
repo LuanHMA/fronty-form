@@ -170,17 +170,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/dores-articulares-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/dores-articulares-2.jpg",
               },
              {
                 name: "Personalizado",
                 label: "Personalizada",
-                src: "/capsule/capsules/vermelha.png",
+                src: "/receips/dores-articulares-3.jpg",
               },
             ],
           },
@@ -210,14 +210,24 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/estimulante-sexual-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/estimulante-sexual-2.jpg",
               },
              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/estimulante-sexual-3.jpg",
+              },
+              {
+                name: "Formula 4",
+                label: "Fórmula 4",
+                src: "/receips/estimulante-sexual-4.jpg",
+              },
+              {
                 name: "Personalizado",
                 label: "Personalizada",
                 src: "/capsule/capsules/vermelha.png",
@@ -230,12 +240,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/fertilidade-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -250,12 +255,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/figado-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/figado-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -270,12 +275,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/foco-memoria-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/foco-memoria-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -290,12 +295,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/gastrite-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -310,12 +310,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/hemorroidas-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -330,12 +325,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/hipertensao-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -350,12 +340,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/imunidade-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/imunidade-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -370,14 +360,19 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/prostata-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/prostata-2.jpg",
               },
              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/prostata-3.jpg",
+              },
+              {
                 name: "Personalizado",
                 label: "Personalizada",
                 src: "/capsule/capsules/vermelha.png",
@@ -390,12 +385,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/ressaca-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/ressaca-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -410,12 +405,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/sono-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/sono-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/sono-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -430,12 +430,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/tpm-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/tpm-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -450,12 +450,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/visao-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/visao-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -476,12 +476,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/digestao-1",
               },
              {
                 name: "Personalizado",
@@ -562,12 +557,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/acido-hialuronico-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/acido-hialuronico-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/acido-hialuronico-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -582,12 +582,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/acne-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/acne-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -602,12 +602,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/anti-envelhecimento-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -622,12 +617,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/autobronzeador-1",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/autobronzeador-2",
               },
              {
                 name: "Personalizado",
@@ -642,12 +637,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/cabelo-pele-unha-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/cabelo-pele-unha-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/cabelo-pele-unha-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -662,12 +662,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/celulite-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/celulite-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -682,12 +682,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/colageno-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/colageno-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -702,12 +702,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/queda-capilar-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/queda-capilar-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -722,12 +722,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/varizes-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/varizes-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -748,12 +748,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/creatina-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -768,12 +763,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/pre-treino-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/pre-treino-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/pre-treino-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -788,12 +788,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/bcaa-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -808,12 +803,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/glutamina-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -828,12 +818,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/termogenico-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/termogenico-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -1204,12 +1194,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/creatina-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1224,12 +1209,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/pre-treino-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/pre-treino-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/pre-treino-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -1244,12 +1234,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/bcaa-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1264,12 +1249,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/glutamina-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1284,12 +1264,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/termogenico-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/termogenico-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -1566,12 +1546,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/estimulante-sexual-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/estimulante-sexual-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/estimulante-sexual-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -1586,12 +1571,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/fertilidade-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1606,12 +1586,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/figado-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/figado-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -1626,12 +1606,13 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/foco-memoria-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/foco-memoria-2.jpg",
+
               },
              {
                 name: "Personalizado",
@@ -1646,12 +1627,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/gastrite-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1666,12 +1642,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/hemorroidas-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1686,12 +1657,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/hipertensao-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1706,12 +1672,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/imunidade-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/imunidade-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -1726,12 +1692,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/prostata-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/prostata-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/prostata-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -1746,12 +1717,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/ressaca-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/ressaca-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -1766,12 +1737,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/sono-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/sono-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/sono-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -1786,12 +1762,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/tpm-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/tpm-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -1806,12 +1782,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/visao-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/visao-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -1832,12 +1808,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/digestao-1",
               },
              {
                 name: "Personalizado",
@@ -1918,12 +1889,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/acido-hialuronico-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/acido-hialuronico-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/acido-hialuronico-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -1938,12 +1914,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/acne-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/acne-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -1958,12 +1934,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/anti-envelhecimento-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -1978,12 +1949,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/autobronzeador-1",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/autobronzeador-2",
               },
              {
                 name: "Personalizado",
@@ -1998,12 +1969,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/cabelo-pele-unha-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/cabelo-pele-unha-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/cabelo-pele-unha-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -2018,12 +1994,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/celulite-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/celulite-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -2038,12 +2014,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/colageno-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/colageno-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -2058,12 +2034,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/queda-capilar-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/queda-capilar-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -2078,12 +2054,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/varizes-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/varizes-2.jpg",
               },
              {
                 name: "Personalizado",
@@ -2104,12 +2080,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/creatina-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -2124,12 +2095,17 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/pre-treino-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/pre-treino-2.jpg",
+              },
+              {
+                name: "Formula 3",
+                label: "Fórmula 3",
+                src: "/receips/pre-treino-3.jpg",
               },
              {
                 name: "Personalizado",
@@ -2144,12 +2120,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/bcaa-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -2164,12 +2135,7 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/glutamina-1.jpg",
               },
              {
                 name: "Personalizado",
@@ -2184,12 +2150,12 @@ export const formData = {
               {
                 name: "Formula 1",
                 label: "Fórmula 1",
-                src: "/capsule/capsules/branca.png",
+                src: "/receips/termogenico-1.jpg",
               },
               {
                 name: "Formula 2",
                 label: "Fórmula 2",
-                src: "/capsule/capsules/preta.png",
+                src: "/receips/termogenico-2.jpg",
               },
              {
                 name: "Personalizado",
