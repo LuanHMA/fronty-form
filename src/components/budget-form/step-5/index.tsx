@@ -128,7 +128,7 @@ export function Step5Capsule() {
   };
 
 
-  const selectedCombinatation = `/capsule/combinacoes/${selected.lidModel}-${selected.lidColor}-${selected.potModel.toLocaleLowerCase()}-${selected.potColor}.png`;
+  const selectedCombinatation = `/capsule/combinacoes/${selected.lidModel}-${selected.lidColor === "personalizada" ? "branca" : selected.lidColor}-${selected.potModel.toLocaleLowerCase()}-${selected.potColor === "personalizada" ? "branca" : selected.potColor}.png`;
 
   return (
     <div className="space-y-4 py-4">
@@ -153,7 +153,7 @@ export function Step5Capsule() {
                     >
                       <label
                         htmlFor={name}
-                        className={`p-1 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2  ease transition-all ${selected.lidModel === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
+                        className={`p-1 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-pointer font-medium text-center text-sm hover:-translate-y-2  ease transition-all ${selected.lidModel === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
                       >
                         <img src={src} alt={label} className="object-cover" />
                         <input
@@ -192,7 +192,7 @@ export function Step5Capsule() {
                     return (
                       <button
                         key={index}
-                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-fronty-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
+                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-pointer transition-all ${selected.lidColor === color && "scale-125"}`}
                         onClick={() => handleSelectLid(color, src)}
                         style={{ backgroundColor: colorCode }}
                       >
@@ -214,7 +214,7 @@ export function Step5Capsule() {
                       <label
                         key={index}
                         htmlFor={name}
-                        className={`p-2 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:-translate-y-2 ease transition-all ${selected.potModel === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
+                        className={`p-2 w-[70px] h-[70px] flex flex-col items-center justify-center rounded-lg cursor-pointer font-medium text-center text-sm hover:-translate-y-2 ease transition-all ${selected.potModel === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
                       >
                         <img
                           src={src}
@@ -254,7 +254,7 @@ export function Step5Capsule() {
                   {potColors.map(({ color, src, colorCode }) => {
                     return (
                       <button
-                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-fronty-pointer transition-all ${selected.potColor === color && "scale-125"}`}
+                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200  cursor-pointer transition-all ${selected.potColor === color && "scale-125"}`}
                         style={{ backgroundColor: colorCode }}
                         onClick={() => handleSelectPot(color, src)}
                       >
@@ -297,7 +297,7 @@ export function Step5Capsule() {
               <label
                 key={index}
                 htmlFor={qtd}
-                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.totQtd === qtd ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.totQtd === qtd ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
               >
                 <input
                   type="radio"

@@ -9,7 +9,7 @@ export default function Home() {
   const { formState } = useFormContext();
 
   return (
-    <div className="w-full grid place-items-start pt-4 sm:pt-10 cursor-[url(/cursor.svg),_auto]">
+    <div className="w-full grid place-items-start pt-4 sm:pt-10 ">
 
       <div className="grid place-items-start w-full p-2 sm:p-4">
         {!formState.formSubmitted && formState.step === 0 && (

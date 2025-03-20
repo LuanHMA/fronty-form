@@ -114,7 +114,7 @@ export function Step4Soluble() {
                 ({ src, color, label }, index) => (
                   <button
                     key={index}
-                    className={`w-9 h-9 rounded-full  border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${selected.lidLabel === label && "scale-125"}`}
+                    className={`w-9 h-9 rounded-full  border-4 shadow-lg p-1 border-neutral-200 cursor-pointer transition-all ${selected.lidLabel === label && "scale-125"}`}
                     onClick={() => handleSelectlidLabel(label, src, color.name)}
                     style={{ backgroundColor: color.bg }}
                   ></button>
@@ -137,7 +137,7 @@ export function Step4Soluble() {
               <label
                 key={index}
                 htmlFor={"capsule" + value}
-                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.solubleQtd === value ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.solubleQtd === value ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
               >
                 <input
                   type="radio"
@@ -170,7 +170,7 @@ export function Step4Soluble() {
               <label
                 key={index}
                 htmlFor={name}
-                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg hover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.flavor.name === name ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-pointer rounded-lg hover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.flavor.name === name ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
               >
                 <input
                   type="radio"
@@ -203,7 +203,7 @@ export function Step4Soluble() {
               <label
                 key={index}
                 htmlFor={qtd}
-                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.totQtd === qtd ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
+                className={`p-5 flex flex-col gap-2 items-center justify-center cursor-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${selected.totQtd === qtd ? "bg-blue-600 text-white" : "bg-white border text-neutral-800"}`}
               >
                 <input
                   type="radio"
@@ -232,7 +232,7 @@ export function Step4Soluble() {
       <div className="w-full flex justify-end">
         <button
           type="submit"
-          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-fronty-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
+          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
           onClick={handleNextStep}
           disabled={disabled}
         >

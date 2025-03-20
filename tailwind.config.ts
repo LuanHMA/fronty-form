@@ -14,10 +14,6 @@ export default {
         foreground: 'var(--foreground)',
         ...mineraRoi.colors,
       },
-      cursor: {
-        "fronty-auto": "url('/cursor.svg'), auto",
-        "fronty-pointer": "url('/cursor-pointer.svg'), pointer",
-      },
     },
   },
   plugins: [],

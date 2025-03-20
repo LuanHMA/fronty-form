@@ -66,7 +66,7 @@ export function Step4Capsule() {
               <label
                 key={index}
                 htmlFor={"capsule" + value}
-                className={`p-6 flex flex-col gap-2 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${
+                className={`p-6 flex flex-col gap-2 items-center justify-center cursor-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-lg hover:shadow-blue-300 ease transition-all ${
                   selected.capsulesQtd === value
                     ? "bg-blue-600 text-white"
                     : "bg-white border text-neutral-800"
@@ -118,7 +118,7 @@ export function Step4Capsule() {
                     return (
                       <button
                         key={index}
-                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200 cursor-fronty-pointer transition-all ${
+                        className={`w-7 h-7 rounded-full border-4 shadow-lg p-1 border-neutral-200 cursor-pointer transition-all ${
                           selected.capsuleColor === color && "scale-125"
                         } }`}
                         onClick={() => handleSelectCapsule(color, src, label)}
@@ -138,7 +138,7 @@ export function Step4Capsule() {
       <div className="w-full flex justify-end">
         <button
           type="submit"
-          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-fronty-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
+          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
           onClick={handleNextStep}
         >
           Próximo

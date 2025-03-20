@@ -33,7 +33,7 @@ export function Step6Resume() {
         color: formState.modelDetails.extra?.color,
       },
     };
-
+     
     try {
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}v1/form/update`,
@@ -223,7 +223,7 @@ export function Step6Resume() {
 
             <div className="flex items-end justify-end">
               <button
-                className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-fronty-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2 disabled:bg-opacity-85 disabled:cursor-not-allowed"
+                className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2 disabled:bg-opacity-85 disabled:cursor-not-allowed"
                 disabled={isLoading}
                 onClick={handleSendForm}
               >

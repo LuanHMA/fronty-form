@@ -44,13 +44,13 @@ export function Step3() {
           Escolha a fórmula que você deseja no seu produto:
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {formState.niche.receips.map(({ src, name, label }, index) => {
             return (
               <label
                 htmlFor={name}
                 key={index}
-                className={`p-3 flex flex-col gap-4 items-center justify-center cursor-fronty-pointer rounded-lg cursor-pointerhover:translate-y-1 hover:shadow-xl hover:shadow-blue-300 ease transition-all ${
+                className={`p-3 flex flex-col gap-4 items-start justify-start cursor-pointer rounded-lg hover:translate-y-1 hover:shadow-xl hover:shadow-blue-300 ease transition-all max-w-xl ${
                   selected.name === name
                     ? "bg-blue-600 text-white"
                     : "bg-white border text-neutral-800"
@@ -62,7 +62,7 @@ export function Step3() {
                 <img
                   src={src}
                   alt={name}
-                  className="w-full h-full object-contain"
+                  className=" object-contain"
                 />
                 <input
                   type="radio"
@@ -94,7 +94,7 @@ export function Step3() {
         <button
           type="submit"
           disabled={selected.name === ""}
-          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-fronty-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
+          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
         >
           Próximo
           <ArrowRight size={20} />

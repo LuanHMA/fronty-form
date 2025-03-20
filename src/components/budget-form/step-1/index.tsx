@@ -41,7 +41,7 @@ export function Step1() {
               <label
                 key={index}
                 htmlFor={name}
-                className={`p-6 flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer font-medium text-center text-sm hover:translate-y-1  hover:shadow-[0px_10px_25px_0px_#0083fb] ease transition-all ${selected === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
+                className={`p-6 flex flex-col items-center justify-center rounded-lg cursor-pointer font-medium text-center text-sm hover:translate-y-1  hover:shadow-[0px_10px_25px_0px_#0083fb] ease transition-all ${selected === name ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
               >
                 <Image
                   src={src}
@@ -74,7 +74,7 @@ export function Step1() {
         <button
           type="submit"
           disabled={selected === null}
-          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-fronty-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
+          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
         >
           Próximo
           <ArrowRight size={20} />

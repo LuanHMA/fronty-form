@@ -92,7 +92,7 @@ export function Step2() {
                     return (
                       <label
                         htmlFor={name + category}
-                        className={`p-4 gap-2 flex flex-col items-center justify-center rounded-lg cursor-fronty-pointer hover:shadow-blue-600 transition-all ${isSelected ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
+                        className={`p-4 gap-2 flex flex-col items-center justify-center rounded-lg cursor-pointer hover:shadow-blue-600 transition-all ${isSelected ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
                         key={index}
                       >
                         <input
@@ -138,7 +138,7 @@ export function Step2() {
         <button
           type="submit"
           disabled={selected === null}
-          className="bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-fronty-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
+          className="bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
         >
           Próximo
           <ArrowRight size={20} />

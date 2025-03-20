@@ -20,7 +20,7 @@ export function Header() {
             <ul className={"flex items-center gap-8"}>
               <li>
                 <Link
-                  className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  text-blue-600 `}
+                  className={`text-sm transition-all duration-500 font-medium hover:cursor-pointer  text-blue-600 `}
                   href="#"
                 >
                   Início
@@ -29,7 +29,7 @@ export function Header() {
 
               <li>
                 <Link
-                  className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  text-blue-600 `}
+                  className={`text-sm transition-all duration-500 font-medium hover:cursor-pointer  text-blue-600 `}
                   href=""
                 >
                   Nossos serviços
@@ -38,7 +38,7 @@ export function Header() {
 
               <li>
                 <Link
-                  className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  text-blue-600 `}
+                  className={`text-sm transition-all duration-500 font-medium hover:cursor-pointer  text-blue-600 `}
                   href=""
                 >
                   Quem somos
@@ -47,7 +47,7 @@ export function Header() {
 
               <li>
                 <Link
-                  className={`text-sm transition-all duration-500 font-medium hover:cursor-fronty-pointer  text-blue-600 `}
+                  className={`text-sm transition-all duration-500 font-medium hover:cursor-pointer  text-blue-600 `}
                   href=""
                 >
                   Contato
