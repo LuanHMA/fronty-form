@@ -1,8 +1,6 @@
 "use client";
 
 import Logo from "../assets/logo.png";
-import LogoWhite from "../assets/logo-white.png";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MobileMenu } from "./mobile-menu";
