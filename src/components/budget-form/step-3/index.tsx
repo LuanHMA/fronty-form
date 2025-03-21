@@ -40,7 +40,13 @@ export function Step3() {
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6">
         <h2 className="text-base sm:text-xl font-medium flex items-start gap-2 sm:items-center">
-        <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" className="mt-1 sm:mt-0"/>
+          <img
+            src="/fronty-icon.png"
+            width={20}
+            height={20}
+            alt="Fronty Icon"
+            className="mt-1 sm:mt-0"
+          />
           Escolha a fórmula que você deseja no seu produto:
         </h2>
 
@@ -59,11 +65,7 @@ export function Step3() {
                 <span className="font-semibold text-left w-full text-sm">
                   {label}
                 </span>
-                <img
-                  src={src}
-                  alt={name}
-                  className=" object-contain"
-                />
+                <img src={src} alt={name} className=" object-contain" />
                 <input
                   type="radio"
                   id={name}
@@ -84,17 +86,18 @@ export function Step3() {
         </div>
 
         <p className="text-neutral-900 text-xs sm:text-sm">
-          <span className="text-red-600 font-bold">Atenção:</span> As fórmulas acima são somente referências! As substâncias e
-          quantidade mínima e máxima permitidas serão analisadas conforme
-          legislação em vigor e exigências da Anvisa na data da fabricação.
+          <span className="text-red-600 font-bold">Atenção:</span> As fórmulas
+          acima são somente referências! As substâncias e quantidade mínima e
+          máxima permitidas serão analisadas conforme legislação em vigor e
+          exigências da Anvisa na data da fabricação.
         </p>
       </div>
 
-      <div className="w-full flex justify-end">
+      <div className="w-full flex justify-end fixed z-[100] bottom-10 right-10 sm:bottom-14">
         <button
           type="submit"
           disabled={selected.name === ""}
-          className=" bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
+          className="bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max cursor-pointer text-white py-3 px-6 text-sm disabled:opacity-50 flex items-center gap-2"
         >
           Próximo
           <ArrowRight size={20} />
