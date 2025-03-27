@@ -7,6 +7,7 @@ import {
   TrendUp,
 } from "@phosphor-icons/react";
 
+
 export const formData = {
   productTypes: [
     {
@@ -31,6 +32,7 @@ export const formData = {
         options: [
           {
             name: "Ansiedade",
+            iconSrc: "/icones/ansiedade.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -51,6 +53,7 @@ export const formData = {
           },
           {
             name: "Anti Estresse",
+            iconSrc: "/icones/Anti Estresse.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -66,6 +69,7 @@ export const formData = {
           },
           {
             name: "Anti Tabagismo",
+            iconSrc: "/icones/Anti Tabagismo.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -80,32 +84,8 @@ export const formData = {
             ],
           },
           {
-            name: "Articulações",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/receips/articulacoes-1.jpg",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/receips/articulacoes-2.jpg",
-              },
-              {
-                name: "Formula 3",
-                label: "Fórmula 3",
-                src: "/receips/articulacoes-3.jpg",
-              },
-              {
-                name: "Personalizado",
-                label: "Personalizada",
-                src: "/receips/personalizada.jpg",
-              },
-            ],
-          },
-          {
             name: "Audição",
+            iconSrc: "/icones/Audição.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -121,6 +101,7 @@ export const formData = {
           },
           {
             name: "Diabetes",
+            iconSrc: "/icones/Diabetes.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -141,6 +122,7 @@ export const formData = {
           },
           {
             name: "Digestão",
+            iconSrc: "/icones/Digestão.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -156,6 +138,7 @@ export const formData = {
           },
           {
             name: "Dores Articulares",
+            iconSrc: "/icones/Dores Articulação.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -176,6 +159,7 @@ export const formData = {
           },
           {
             name: "Enxaqueca",
+            iconSrc: "/icones/enxaqueca.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -191,6 +175,7 @@ export const formData = {
           },
           {
             name: "Estimulante Sexual",
+            iconSrc: "/icones/Estimulante Sexual.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -221,6 +206,7 @@ export const formData = {
           },
           {
             name: "Fertilidade",
+            iconSrc: "/icones/Fertilidade.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -236,6 +222,7 @@ export const formData = {
           },
           {
             name: "Fígado",
+            iconSrc: "/icones/figado.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -256,6 +243,7 @@ export const formData = {
           },
           {
             name: "Foco, Memória & Concentração",
+            iconSrc: "/icones/Foco, Memória & Concentração.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -276,6 +264,7 @@ export const formData = {
           },
           {
             name: "Gastrite",
+            iconSrc: "/icones/gastrite.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -291,6 +280,7 @@ export const formData = {
           },
           {
             name: "Hemorróidas",
+            iconSrc: "/icones/hemorroidas.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -306,6 +296,7 @@ export const formData = {
           },
           {
             name: "Hipertensão",
+            iconSrc: "/icones/hipertensao.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -321,6 +312,7 @@ export const formData = {
           },
           {
             name: "Imunidade",
+            iconSrc: "/icones/imunidade.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -341,6 +333,7 @@ export const formData = {
           },
           {
             name: "Próstata",
+            iconSrc: "/icones/prostata.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -366,6 +359,7 @@ export const formData = {
           },
           {
             name: "Ressaca",
+            iconSrc: "/icones/Ressaca.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -386,6 +380,7 @@ export const formData = {
           },
           {
             name: "Sono",
+            iconSrc: "/icones/sono.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -411,6 +406,7 @@ export const formData = {
           },
           {
             name: "TPM & Menopausa",
+            iconSrc: "/icones/menopausa.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -431,6 +427,7 @@ export const formData = {
           },
           {
             name: "Visão",
+            iconSrc: "/icones/visao.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -457,6 +454,7 @@ export const formData = {
         options: [
           {
             name: "Digestivo",
+            iconSrc: "/icones/Digestão.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -472,6 +470,7 @@ export const formData = {
           },
           {
             name: "Diurético",
+            iconSrc: "/icones/Diuretico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -487,6 +486,7 @@ export const formData = {
           },
           {
             name: "Queima de Gordura",
+            iconSrc: "/icones/Queima de Gordura.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -512,6 +512,7 @@ export const formData = {
           },
           {
             name: "Controle de Apetite",
+            iconSrc: "/icones/controle apetite.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -533,6 +534,7 @@ export const formData = {
         options: [
           {
             name: "Ácido Hialurônico",
+            iconSrc: "/icones/Ácido Hialurônico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -558,6 +560,7 @@ export const formData = {
           },
           {
             name: "Acnes/Manchas na Pele",
+            iconSrc: "/icones/AcnesManchas na Pele.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -578,6 +581,7 @@ export const formData = {
           },
           {
             name: "Anti Envelhecimento e Rugas",
+            iconSrc: "/icones/Anti Envelhecimento e Rugas.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -593,6 +597,7 @@ export const formData = {
           },
           {
             name: "Autobronzeador",
+            iconSrc: "/icones/Autobronzeador.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -613,6 +618,7 @@ export const formData = {
           },
           {
             name: "Cabelo, Pele e Unha",
+            iconSrc: "/icones/cabelo-pele-unha.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -638,6 +644,7 @@ export const formData = {
           },
           {
             name: "Celulite",
+            iconSrc: "/icones/Celulite.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -658,6 +665,7 @@ export const formData = {
           },
           {
             name: "Colágeno",
+            iconSrc: "/icones/Colágeno.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -678,6 +686,7 @@ export const formData = {
           },
           {
             name: "Queda Capilar",
+            iconSrc: "/icones/Queda Capilar.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -698,6 +707,7 @@ export const formData = {
           },
           {
             name: "Varizes",
+            iconSrc:"/icones/varizes.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -724,6 +734,7 @@ export const formData = {
         options: [
           {
             name: "Creatina",
+            iconSrc: "/icones/Creatina.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -739,6 +750,7 @@ export const formData = {
           },
           {
             name: "Pré-Treino",
+            iconSrc: "/icones/Pré-Treino.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -764,6 +776,7 @@ export const formData = {
           },
           {
             name: "BCAA",
+            iconSrc: "/icones/BCAA.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -779,6 +792,7 @@ export const formData = {
           },
           {
             name: "Glutamina",
+            iconSrc: "/icones/GLUTAMINA.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -794,6 +808,7 @@ export const formData = {
           },
           {
             name: "Termogênico",
+            iconSrc: "/icones/Termogênico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -814,6 +829,7 @@ export const formData = {
           },
           {
             name: "Colágeno Verisol",
+            iconSrc: "/icones/Colágeno Verisol.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -834,6 +850,7 @@ export const formData = {
           },
           {
             name: "Polivitamínico",
+            iconSrc: "/icones/Polivitamínico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -849,6 +866,7 @@ export const formData = {
           },
           {
             name: "Vitaminas",
+            iconSrc: "/icones/vitaminas.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -859,6 +877,7 @@ export const formData = {
           },
           {
             name: "Minerais",
+            iconSrc: "/icones/minerais.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -876,6 +895,7 @@ export const formData = {
         options: [
           {
             name: "Fórmula personalizada",
+            iconSrc: "/icones/Fórmula personalizada.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -1053,7 +1073,7 @@ export const formData = {
           },
           {
             color: "transparente",
-            src: "/capsule/potes/r80-branco.png",
+            src: "/capsule/potes/r80-transparente.png",
             colorCode: "oklch(0.922 0 0)",
           },
           {
@@ -1081,7 +1101,7 @@ export const formData = {
           },
           {
             color: "transparente",
-            src: "/capsule/potes/r170-branco.png",
+            src: "/capsule/potes/r170-transparente.png",
             colorCode: "oklch(0.922 0 0)",
           },
 
@@ -1100,7 +1120,7 @@ export const formData = {
           },
           {
             color: "transparente",
-            src: "/capsule/potes/t100-branco.png",
+            src: "/capsule/potes/t100-transparente.png",
             colorCode: "oklch(0.922 0 0)",
           },
           {
@@ -1124,7 +1144,7 @@ export const formData = {
         { label: "Duas Opções", value: "two-options" },
       ],
     },
-    totQtd: ["200", "500", "1000", "2000", "5000", "all"],
+    totQtd: ["300", "500", "1000", "2000", "5000", "all"],
   },
 
   solubles: {
@@ -1135,6 +1155,7 @@ export const formData = {
         options: [
           {
             name: "Creatina",
+            iconSrc: "/icones/Creatina.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1150,6 +1171,7 @@ export const formData = {
           },
           {
             name: "Pré-Treino",
+            iconSrc: "/icones/Pré-Treino.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1175,6 +1197,7 @@ export const formData = {
           },
           {
             name: "BCAA",
+            iconSrc: "/icones/BCAA.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1190,6 +1213,7 @@ export const formData = {
           },
           {
             name: "Glutamina",
+            iconSrc: "/icones/Fórmula personalizada.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1205,6 +1229,7 @@ export const formData = {
           },
           {
             name: "Termogênico",
+            iconSrc: "/icones/Termogênico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1225,6 +1250,7 @@ export const formData = {
           },
           {
             name: "Colágeno Verisol",
+            iconSrc: "/icones/Colágeno Verisol.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1245,6 +1271,7 @@ export const formData = {
           },
           {
             name: "Fórmula Personalizada",
+            iconSrc: "/icones/Fórmula personalizada.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -1291,7 +1318,7 @@ export const formData = {
         },
       },
     ],
-    totQtd: ["200", "500", "1000", "2000", "5000", "all"],
+    totQtd: ["300", "500", "1000", "2000", "5000", "all"],
   },
 
   liquid: {
@@ -1302,6 +1329,7 @@ export const formData = {
         options: [
           {
             name: "Ansiedade",
+            iconSrc: "/icones/ansiedade.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1322,6 +1350,7 @@ export const formData = {
           },
           {
             name: "Anti Estresse",
+            iconSrc: "/icones/Anti Estresse.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1337,6 +1366,7 @@ export const formData = {
           },
           {
             name: "Anti Tabagismo",
+            iconSrc: "/icones/Anti Tabagismo.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -1345,33 +1375,10 @@ export const formData = {
               },
             ],
           },
-          {
-            name: "Articulações",
-            receips: [
-              {
-                name: "Formula 1",
-                label: "Fórmula 1",
-                src: "/receips/articulacoes-1.jpg",
-              },
-              {
-                name: "Formula 2",
-                label: "Fórmula 2",
-                src: "/receips/articulacoes-2.jpg",
-              },
-              {
-                name: "Formula 3",
-                label: "Fórmula 3",
-                src: "/receips/articulacoes-3.jpg",
-              },
-              {
-                name: "Personalizado",
-                label: "Personalizada",
-                src: "/receips/personalizada.jpg",
-              },
-            ],
-          },
+         
           {
             name: "Audição",
+            iconSrc: "/icones/Audição.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1387,6 +1394,7 @@ export const formData = {
           },
           {
             name: "Diabetes",
+            iconSrc: "/icones/Diabetes.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1407,6 +1415,7 @@ export const formData = {
           },
           {
             name: "Digestão",
+            iconSrc: "/icones/Digestão.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1422,6 +1431,7 @@ export const formData = {
           },
           {
             name: "Dores Articulares",
+            iconSrc: "/icones/Dores Articulação.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1442,6 +1452,7 @@ export const formData = {
           },
           {
             name: "Enxaqueca",
+            iconSrc: "/icones/enxaqueca.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1457,6 +1468,7 @@ export const formData = {
           },
           {
             name: "Estimulante Sexual",
+            iconSrc: "/icones/Estimulante Sexual.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1482,6 +1494,7 @@ export const formData = {
           },
           {
             name: "Fertilidade",
+            iconSrc: "/icones/Fertilidade.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1497,6 +1510,7 @@ export const formData = {
           },
           {
             name: "Fígado",
+            iconSrc: "/icones/figado.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1517,6 +1531,7 @@ export const formData = {
           },
           {
             name: "Foco, Memória & Concentração",
+            iconSrc: "/icones/Foco, Memória & Concentração.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1537,6 +1552,7 @@ export const formData = {
           },
           {
             name: "Gastrite",
+            iconSrc: "/icones/gastrite.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1552,6 +1568,7 @@ export const formData = {
           },
           {
             name: "Hemorróidas",
+            iconSrc: "/icones/hemorroidas.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1567,6 +1584,7 @@ export const formData = {
           },
           {
             name: "Hipertensão",
+            iconSrc: "/icones/hipertensao.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1582,6 +1600,7 @@ export const formData = {
           },
           {
             name: "Imunidade",
+            iconSrc: "/icones/imunidade.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1602,6 +1621,7 @@ export const formData = {
           },
           {
             name: "Próstata",
+            iconSrc: "/icones/prostata.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1627,6 +1647,7 @@ export const formData = {
           },
           {
             name: "Ressaca",
+            iconSrc: "/icones/Ressaca.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1647,6 +1668,7 @@ export const formData = {
           },
           {
             name: "Sono",
+            iconSrc: "/icones/sono.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1672,6 +1694,7 @@ export const formData = {
           },
           {
             name: "TPM & Menopausa",
+            iconSrc: "/icones/menopausa.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1692,6 +1715,7 @@ export const formData = {
           },
           {
             name: "Visão",
+            iconSrc: "/icones/visao.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1718,6 +1742,7 @@ export const formData = {
         options: [
           {
             name: "Digestivo",
+            iconSrc: "/icones/Digestão.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1733,6 +1758,7 @@ export const formData = {
           },
           {
             name: "Diurético",
+            iconSrc: "/icones/Diuretico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1748,6 +1774,7 @@ export const formData = {
           },
           {
             name: "Queima de Gordura",
+            iconSrc: "/icones/Queima de Gordura.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1773,6 +1800,7 @@ export const formData = {
           },
           {
             name: "Controle de Apetite",
+            iconSrc: "/icones/controle apetite.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1794,6 +1822,7 @@ export const formData = {
         options: [
           {
             name: "Ácido Hialurônico",
+            iconSrc: "/icones/Ácido Hialurônico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1819,6 +1848,7 @@ export const formData = {
           },
           {
             name: "Acnes/Manchas na Pele",
+            iconSrc: "/icones/AcnesManchas na Pele.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1839,6 +1869,7 @@ export const formData = {
           },
           {
             name: "Anti Envelhecimento e Rugas",
+            iconSrc: "/icones/Anti Envelhecimento e Rugas.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1854,6 +1885,7 @@ export const formData = {
           },
           {
             name: "Autobronzeador",
+            iconSrc: "/icones/Autobronzeador.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1874,6 +1906,7 @@ export const formData = {
           },
           {
             name: "Cabelo, Pele e Unha",
+            iconSrc: "/icones/cabelo-pele-unha.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1899,6 +1932,7 @@ export const formData = {
           },
           {
             name: "Celulite",
+            iconSrc: "/icones/Celulite.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1919,6 +1953,7 @@ export const formData = {
           },
           {
             name: "Colágeno",
+            iconSrc: "/icones/Colágeno.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1939,6 +1974,7 @@ export const formData = {
           },
           {
             name: "Queda Capilar",
+            iconSrc: "/icones/Queda Capilar.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1959,6 +1995,7 @@ export const formData = {
           },
           {
             name: "Varizes",
+            iconSrc: "/icones/varizes.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1985,6 +2022,7 @@ export const formData = {
         options: [
           {
             name: "Creatina",
+            iconSrc: "/icones/Creatina.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -2000,6 +2038,7 @@ export const formData = {
           },
           {
             name: "Pré-Treino",
+            iconSrc: "/icones/Pré-Treino.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -2025,6 +2064,7 @@ export const formData = {
           },
           {
             name: "BCAA",
+            iconSrc: "/icones/BCAA.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -2040,6 +2080,7 @@ export const formData = {
           },
           {
             name: "Glutamina",
+            iconSrc: "/icones/Fórmula personalizada.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -2055,6 +2096,7 @@ export const formData = {
           },
           {
             name: "Termogênico",
+            iconSrc: "/icones/Termogênico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -2075,6 +2117,7 @@ export const formData = {
           },
           {
             name: "Colágeno Verisol",
+            iconSrc: "/icones/Colágeno Verisol.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -2095,6 +2138,7 @@ export const formData = {
           },
           {
             name: "Polivitamínico",
+            iconSrc: "/icones/Polivitamínico.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -2110,6 +2154,7 @@ export const formData = {
           },
           {
             name: "Vitaminas",
+            iconSrc: "/icones/vitaminas.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2120,6 +2165,7 @@ export const formData = {
           },
           {
             name: "Minerais",
+            iconSrc: "/icones/minerais.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2137,6 +2183,7 @@ export const formData = {
         options: [
           {
             name: "Fórmula personalizada",
+            iconSrc: "/icones/Fórmula personalizada.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2184,7 +2231,7 @@ export const formData = {
         },
       },
     ],
-    totQtd: ["200", "500", "1000", "2000", "5000", "all"],
+    totQtd: ["300", "500", "1000", "2000", "5000", "all"],
   },
 
   comestics: {
@@ -2195,6 +2242,7 @@ export const formData = {
         options: [
           {
             name: "Shampoo",
+            iconSrc: "/icones/SHAMPOO.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2205,6 +2253,7 @@ export const formData = {
           },
           {
             name: "Condicionador",
+            iconSrc: "/icones/CONDICIONADOR.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2215,6 +2264,7 @@ export const formData = {
           },
           {
             name: "Máscaras",
+            iconSrc: "/icones/MASCARAS.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2225,6 +2275,7 @@ export const formData = {
           },
           {
             name: "Cremes",
+            iconSrc: "/icones/CREMES.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2235,6 +2286,7 @@ export const formData = {
           },
           {
             name: "Finalizador",
+            iconSrc: "/icones/FINALIZADOR.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2245,6 +2297,7 @@ export const formData = {
           },
           {
             name: "Tônico",
+            iconSrc: "/icones/TONICO.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2255,6 +2308,7 @@ export const formData = {
           },
           {
             name: "Produto Personalizado",
+            iconSrc: "/icones/PRODUTO PERSONALIZADO.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2270,6 +2324,7 @@ export const formData = {
         Icon: Fire,
         options: [
           {
+            iconSrc: "/icones/Creme Dores Musculares.svg",
             name: "Creme Dores Musculares",
             receips: [
               {
@@ -2281,6 +2336,7 @@ export const formData = {
           },
           {
             name: "Gel Redutor de Medidas",
+            iconSrc: "/icones/Gel Redutor de Medidas.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2291,6 +2347,7 @@ export const formData = {
           },
           {
             name: "Creme Anti Manchas",
+            iconSrc: "/icones/Creme Anti Manchas.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2301,6 +2358,7 @@ export const formData = {
           },
           {
             name: "Creme Clareador",
+            iconSrc: "/icones/Creme Clareador.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2311,6 +2369,7 @@ export const formData = {
           },
           {
             name: "Gel Anti Celulite",
+            iconSrc: "/icones/Gel Anti Celulite.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2321,6 +2380,7 @@ export const formData = {
           },
           {
             name: "Produto Personalizado",
+            iconSrc: "/icones/PRODUTO PERSONALIZADO.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2337,6 +2397,7 @@ export const formData = {
         options: [
           {
             name: "Sérum Facial",
+            iconSrc: "/icones/Sérum Facial.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2347,6 +2408,7 @@ export const formData = {
           },
           {
             name: "Creme Anti Acne",
+            iconSrc: "/icones/Creme Anti Acne.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2357,6 +2419,7 @@ export const formData = {
           },
           {
             name: "Creme Anti Manchas",
+            iconSrc: "/icones/Creme Anti Manchas.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2367,6 +2430,7 @@ export const formData = {
           },
           {
             name: "Produto Personalizado",
+            iconSrc: "/icones/PRODUTO PERSONALIZADO.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2383,6 +2447,7 @@ export const formData = {
         options: [
           {
             name: "Gel Peniano",
+            iconSrc: "/icones/Gel Peniano.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2393,6 +2458,7 @@ export const formData = {
           },
           {
             name: "Creme para Massagem",
+            iconSrc: "/icones/Creme para Massagem.svg",  
             receips: [
               {
                 name: "Personalizado",
@@ -2403,6 +2469,7 @@ export const formData = {
           },
           {
             name: "Produto Personalizado",
+            iconSrc: "/icones/PRODUTO PERSONALIZADO.svg",
             receips: [
               {
                 name: "Personalizado",
@@ -2508,7 +2575,7 @@ export const formData = {
       },
     ],
 
-    totQtd: ["200", "500", "1000", "2000", "5000", "all"],
+    totQtd: ["300", "500", "1000", "2000", "5000", "all"],
     modeColors: [
       {
         label: "Pote PEAD Branco",

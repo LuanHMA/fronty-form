@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
@@ -70,63 +70,85 @@ export function Step2() {
     <form className="space-y-4 py-4" onSubmit={handleSubmit(handleSubmitForm)}>
       <div className="border border-neutral-200 rounded-xl p-6 bg-white space-y-6 pb-24">
         <h2 className="text-base sm:text-xl font-medium flex items-start gap-2 sm:items-center">
-        <img src="/fronty-icon.png" width={20} height={20} alt="Fronty Icon" className="mt-1 sm:mt-0"/>
+          <img
+            src="/fronty-icon.png"
+            width={20}
+            height={20}
+            alt="Fronty Icon"
+            className="mt-1 sm:mt-0"
+          />
           Escolha o nicho de atuação do seu Produto
         </h2>
         <div className="grid grid-cols-1 gap-4 space-y-4">
           {data.map(({ category, Icon, options }, index) => {
             return (
               <div
-                className={`space-y-4 ${index === data.length - 1 ? "border-0 pb-0" : "border-b pb-6"}`}
+                className={`space-y-4 ${
+                  index === data.length - 1 ? "border-0 pb-0" : "border-b pb-6"
+                }`}
                 key={index}
               >
                 <h2 className="flex items-center gap-2 text-base sm:text-lg font-bold text-blue-800">
                   {category}
                 </h2>
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-                  {options.map(({ description, name, receips }, index) => {
-                    const isSelected =
-                      selected?.name === name &&
-                      selected?.category === category;
+                  {options.map(
+                    ({ description, name, receips, iconSrc }, index) => {
+                      const isSelected =
+                        selected?.name === name &&
+                        selected?.category === category;
 
-                    return (
-                      <label
-                        htmlFor={name + category}
-                        className={`p-4 gap-2 flex flex-col items-center justify-center rounded-lg cursor-pointer hover:shadow-blue-600 transition-all ${isSelected ? "bg-blue-600 text-white" : "bg-white border border-neutral-200 text-neutral-800"}`}
-                        key={index}
-                      >
-                        <input
-                          type="radio"
-                          id={name + category}
-                          value={name}
-                          className="sr-only"
-                          onClick={() => {
-                            setSelected({
-                              name,
-                              category,
-                              icon: Icon,
-                              receips,
-                            });
-                          }}
-                          {...register("niche")}
-                        />
-                        <Icon size={24} weight="duotone" />
-                        <div className="flex flex-col items-center gap-1">
-                          <span className="text-center text-sm sm:text-base font-semibold">
-                            {name}
-                          </span>
-
-                          {description && (
-                            <span
-                              className={`text-xs uppercase text-center ${isSelected ? "text-blue-200" : "text-neutral-500"}`}
-                            >
-                              {description}
+                      return (
+                        <label
+                          htmlFor={name + category}
+                          className={`p-4 gap-2 flex flex-col items-center justify-center rounded-lg cursor-pointer hover:shadow-blue-600 transition-all ${
+                            isSelected
+                              ? "bg-blue-600 text-white"
+                              : "bg-white border border-neutral-200 text-neutral-800"
+                          }`}
+                          key={index}
+                        >
+                          <input
+                            type="radio"
+                            id={name + category}
+                            value={name}
+                            className="sr-only"
+                            onClick={() => {
+                              setSelected({
+                                name,
+                                category,
+                                icon: Icon,
+                                receips,
+                              });
+                            }}
+                            {...register("niche")}
+                          />
+                          <img
+                            src={iconSrc}
+                            alt=""
+                            className={`w-10 h-10  ${isSelected && "invert"}`}
+                          />
+                          <div className="flex flex-col items-center gap-1">
+                            <span className="text-center text-sm sm:text-base font-semibold">
+                              {name}
                             </span>
-                          )}
-                        </div>
-                      </label>
-                    );
-                  })}
+
+                            {description && (
+                              <span
+                                className={`text-xs uppercase text-center ${
+                                  isSelected
+                                    ? "text-blue-200"
+                                    : "text-neutral-500"
+                                }`}
+                              >
+                                {description}
+                              </span>
+                            )}
+                          </div>
+                        </label>
+                      );
+                    }
+                  )}
                 </div>
               </div>
             );

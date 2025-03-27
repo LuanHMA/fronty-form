@@ -1,7 +1,6 @@
 "use client";
 
 import { BudgetForm } from "@/components/budget-form";
-import { Header } from "@/components/header";
 import { InitalForm } from "@/components/initial-form";
 import { useFormContext } from "@/context/form-contenxt";
 
@@ -10,7 +9,6 @@ export default function Home() {
 
   return (
     <div className="w-full grid place-items-start pt-4 sm:pt-10 ">
-
       <div className="grid place-items-start w-full p-2 sm:p-4">
         {!formState.formSubmitted && formState.step === 0 && (
           <div className="w-full mx-auto grid place-items-center max-w-7xl space-y-4 sm:space-y-10">
@@ -41,6 +39,7 @@ export default function Home() {
               </div>
             </div>
 
+          
             <BudgetForm />
           </div>
         )}

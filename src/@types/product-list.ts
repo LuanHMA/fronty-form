@@ -11,5 +11,6 @@ export interface ProductList {
       label: string;
       src: string;
     }[];
+    iconSrc?: string
   }[];
 }
