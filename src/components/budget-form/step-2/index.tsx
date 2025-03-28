@@ -92,7 +92,7 @@ export function Step2() {
                 </h2>
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                   {options.map(
-                    ({ description, name, receips, iconSrc }, index) => {
+                    ({ name, receips, iconSrc }, index) => {
                       const isSelected =
                         selected?.name === name &&
                         selected?.category === category;
@@ -125,24 +125,12 @@ export function Step2() {
                           <img
                             src={iconSrc}
                             alt=""
-                            className={`w-10 h-10  ${isSelected && "invert"}`}
+                            className={`${name === "Ressaca" ? "h-20 w-20" : "w-10 h-10"}  ${isSelected && "invert"}`}
                           />
-                          <div className="flex flex-col items-center gap-1">
+                          <div className={`flex flex-col items-center gap-1 ${name === "Ressaca" && "relative -top-5"}`}>
                             <span className="text-center text-sm sm:text-base font-semibold">
                               {name}
                             </span>
-
-                            {description && (
-                              <span
-                                className={`text-xs uppercase text-center ${
-                                  isSelected
-                                    ? "text-blue-200"
-                                    : "text-neutral-500"
-                                }`}
-                              >
-                                {description}
-                              </span>
-                            )}
                           </div>
                         </label>
                       );
