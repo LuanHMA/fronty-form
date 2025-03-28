@@ -243,7 +243,7 @@ export const formData = {
           },
           {
             name: "Foco, Memória & Concentração",
-            iconSrc: "/icones/Foco, Memória & Concentração.svg",
+            iconSrc: "/icones/foco-memoria-concentracao.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -312,7 +312,7 @@ export const formData = {
           },
           {
             name: "Imunidade",
-            iconSrc: "/icones/imunidade.svg",
+            iconSrc: "/icones/Imunidade.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -450,11 +450,10 @@ export const formData = {
       },
       {
         category: "Emagrecimento",
-        Icon: Barbell,
         options: [
           {
             name: "Digestivo",
-            iconSrc: "/icones/Digestão.svg",
+            iconSrc: "/icones/Digestivo.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1531,7 +1530,7 @@ export const formData = {
           },
           {
             name: "Foco, Memória & Concentração",
-            iconSrc: "/icones/Foco, Memória & Concentração.svg",
+            iconSrc: "/icones/foco-memoria-concentracao.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1600,7 +1599,7 @@ export const formData = {
           },
           {
             name: "Imunidade",
-            iconSrc: "/icones/imunidade.svg",
+            iconSrc: "/icones/Imunidade.svg",
             receips: [
               {
                 name: "Formula 1",
@@ -1738,11 +1737,10 @@ export const formData = {
       },
       {
         category: "Emagrecimento",
-        Icon: Barbell,
         options: [
           {
             name: "Digestivo",
-            iconSrc: "/icones/Digestão.svg",
+            iconSrc: "/icones/Digestivo.svg",
             receips: [
               {
                 name: "Formula 1",
