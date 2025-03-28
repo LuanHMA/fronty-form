@@ -1,7 +1,6 @@
 import { Icon } from "@phosphor-icons/react";
 
 export interface ProductList {
-  Icon: Icon;
   category: string;
   options: {
     name: string;

@@ -11,7 +11,6 @@ interface FormStep {
   niche: {
     name: string;
     category: string | undefined;
-    icon: Icon | undefined;
     receips: {
       name: string;
       label: string;
@@ -77,7 +76,6 @@ export const FormProvider: React.FC<{ children: React.ReactNode }> = ({
     niche: {
       name: "",
       category: undefined,
-      icon: undefined,
       receips: [],
     },
     receipe: {

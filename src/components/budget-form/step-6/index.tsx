@@ -67,7 +67,6 @@ export function Step6Resume() {
       niche: {
         name: "",
         category: undefined,
-        icon: undefined,
         receips: [],
       },
       receipe: {

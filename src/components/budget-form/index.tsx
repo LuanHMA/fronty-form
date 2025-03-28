@@ -33,7 +33,6 @@ export function BudgetForm() {
           },
           niche: {
             category: "",
-            icon: undefined,
             name: "",
             receips: [],
           },
@@ -74,9 +73,8 @@ export function BudgetForm() {
             name: "",
           },
           niche: {
-            category: "",
-            icon: undefined,
             name: "",
+            category: "",
             receips: [],
           },
           productDetails: {
@@ -209,7 +207,6 @@ export function BudgetForm() {
           },
           niche: {
             category: "",
-            icon: undefined,
             name: "",
             receips: [],
           },

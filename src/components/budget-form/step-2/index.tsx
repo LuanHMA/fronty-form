@@ -18,7 +18,7 @@ type formSchemaType = z.infer<typeof formSchema>;
 interface selectedProps {
   name: string;
   category: string;
-  icon: Icon;
+  iconSrc?: string
   receips: {
     name: string;
     label: string;
@@ -41,7 +41,6 @@ export function Step2() {
       niche: {
         category: selected?.category,
         name: data.niche,
-        icon: selected?.icon,
         receips: selected?.receips!!,
       },
     });
@@ -80,7 +79,7 @@ export function Step2() {
           Escolha o nicho de atuação do seu Produto
         </h2>
         <div className="grid grid-cols-1 gap-4 space-y-4">
-          {data.map(({ category, Icon, options }, index) => {
+          {data.map(({ category, options }, index) => {
             return (
               <div
                 className={`space-y-4 ${
@@ -117,8 +116,8 @@ export function Step2() {
                               setSelected({
                                 name,
                                 category,
-                                icon: Icon,
                                 receips,
+                                iconSrc
                               });
                             }}
                             {...register("niche")}
