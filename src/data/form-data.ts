@@ -1,5 +1,4 @@
 import {
-  Barbell,
   Fire,
   GearSix,
   HairDryer,

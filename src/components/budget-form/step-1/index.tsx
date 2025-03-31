@@ -48,7 +48,7 @@ export function Step1() {
                   alt={label}
                   width={256}
                   height={256}
-                  className="w-28 sm:w-full max-w-64"
+                    className={`w-28 sm:w-full max-w-64 ${name === "soluvel" && "relative top-6"}`}
                 />
 
                 <input
@@ -60,7 +60,7 @@ export function Step1() {
                   {...register("productType")}
                 />
                 <h2
-                  className={`text-sm font-medium text-neutral-800 sm:text-lg ${selected === name ? "text-white" : "text-neutral-800"}`}
+                  className={`text-sm font-medium text-neutral-800 sm:text-lg ${selected === name ? "text-white" : "text-neutral-800"} ${name === "soluvel" && "relative -top-2"}`}
                 >
                   {label}
                 </h2>
