@@ -125,7 +125,7 @@ export function Step2() {
                           <img
                             src={iconSrc}
                             alt=""
-                            className={`${name === "Ressaca" ? "h-20 w-20" : "w-10 h-10"}  ${isSelected && "invert"}`}
+                            className={`${name === "Ressaca" ? "h-20 w-20" : name === "Autobronzeador" ? "w-12 h-12" : "w-10 h-10"}  ${isSelected && "invert"}`}
                           />
                           <div className={`flex flex-col items-center gap-1 ${name === "Ressaca" && "relative -top-5"}`}>
                             <span className="text-center text-sm sm:text-base font-semibold">
