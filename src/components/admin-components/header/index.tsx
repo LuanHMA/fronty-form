@@ -2,6 +2,7 @@ import Image from "next/image";
 import { MobileMenu } from "./mobile-menu";
 import { PageTitle } from "./page-title";
 import Logo from "@/assets/logo.png";
+
 export function Header() {
   return (
     <header className="border-b h-20 bg-neutral-0 ">

@@ -960,12 +960,12 @@ export const formData = {
       ],
       colors: {
         flipTop: [
-          {
-            color: "transparente",
-            label: "Transparente",
-            src: "/capsule/tampas/flip-top-transparente.png",
-            colorCode: "oklch(0.922 0 0)",
-          },
+          // {
+          //   color: "transparente",
+          //   label: "Transparente",
+          //   src: "/capsule/tampas/flip-top-transparente.png",
+          //   colorCode: "oklch(0.922 0 0)",
+          // },
           {
             color: "branca",
             label: "Branca",
@@ -996,12 +996,12 @@ export const formData = {
             src: "/capsule/tampas/flip-top-roxa.png",
             colorCode: "oklch(0.558 0.288 302.321)",
           },
-          {
-            color: "personalizada",
-            label: "Personalizada",
-            src: "/capsule/tampas/flip-top-transparente.png",
-            colorCode: "#ffff",
-          },
+          // {
+          //   color: "personalizada",
+          //   label: "Personalizada",
+          //   src: "/capsule/tampas/flip-top-transparente.png",
+          //   colorCode: "#ffff",
+          // },
         ],
         lisa: [
           {

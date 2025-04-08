@@ -19,15 +19,6 @@ export function Header() {
               <li>
                 <Link
                   className={`text-sm transition-all duration-500 font-medium hover:cursor-pointer  text-blue-600 `}
-                  href="#"
-                >
-                  Início
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  className={`text-sm transition-all duration-500 font-medium hover:cursor-pointer  text-blue-600 `}
                   href=""
                 >
                   Nossos serviços
@@ -55,10 +46,10 @@ export function Header() {
           </nav>
 
           <Link
-            href={"#"}
-            className="hidden sm:block text-sm tracking-wide overflow-hidden font-bold text-white bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max hover:shadow-[0px_10px_25px_0px_#0083fb] hover:translate-y-[-5px]"
+            href={"/"}
+            className="hidden sm:block text-sm tracking-wide px-8 overflow-hidden font-bold text-white bg-gradient-to-r transition-all ease duration-300 relative from-[#1e12ce] to-[#0083fb] p-3 rounded-lg w-max hover:shadow-[0px_10px_25px_0px_#0083fb] hover:translate-y-[-5px]"
           >
-            Quero ser produtor
+            Ínicio
           </Link>
 
           <div className="md:hidden">

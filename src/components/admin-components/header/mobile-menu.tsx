@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { List, SignOut, User, X } from '@phosphor-icons/react'
+import { List, SignOut, X } from '@phosphor-icons/react'
 import { menuItems } from '@/constants/menu-links'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
